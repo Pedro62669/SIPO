@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Serve built frontend assets from Laravel public directory.
+    RewriteRule ^build/(.*)$ public/build/$1 [L]
+
+    # Serve common public files from Laravel public directory.
+    RewriteRule ^(favicon\.ico|robots\.txt)$ public/$1 [L]
+
+    # Send app routes through /SIPO/index.php (subfolder-safe).
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ index.php [L]
+</IfModule>

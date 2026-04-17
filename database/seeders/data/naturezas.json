@@ -1,0 +1,373 @@
+[
+  {
+    "codigo": "4.6.95.71.00.00.00",
+    "codigo_compacto": "46957100",
+    "descricao": "Principal da Divida Contratual Resgatado",
+    "classificacao": "Amortização da Dívida",
+    "grupo": "46"
+  },
+  {
+    "codigo": "4.4.90.61.00.00.00",
+    "codigo_compacto": "44906100",
+    "descricao": "Aquisição de Imóveis",
+    "classificacao": "Imóveis",
+    "grupo": "44"
+  },
+  {
+    "codigo": "4.4.91.61.00.00.00",
+    "codigo_compacto": "44916100",
+    "descricao": "Aquisição de Imóveis",
+    "classificacao": "Imóveis",
+    "grupo": "44"
+  },
+  {
+    "codigo": "3.2.90.21.00.00.00",
+    "codigo_compacto": "32902100",
+    "descricao": "Juros sobre a Divida por Contrato",
+    "classificacao": "Juros e Encargos da Dívida",
+    "grupo": "32"
+  },
+  {
+    "codigo": "4.4.90.51.00.00.00",
+    "codigo_compacto": "44905100",
+    "descricao": "Obras e Instalações",
+    "classificacao": "Obras",
+    "grupo": "44"
+  },
+  {
+    "codigo": "4.4.90.51.02.00.00",
+    "codigo_compacto": "44905102",
+    "descricao": "Obras e Instalações",
+    "classificacao": "Obras",
+    "grupo": "44"
+  },
+  {
+    "codigo": "4.4.91.51.00.00.00",
+    "codigo_compacto": "44915100",
+    "descricao": "Obras e Instalações",
+    "classificacao": "Obras",
+    "grupo": "44"
+  },
+  {
+    "codigo": "3.3.30.41.00.00.00",
+    "codigo_compacto": "33304100",
+    "descricao": "Contribuições",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.50.30.00.00.00",
+    "codigo_compacto": "33503000",
+    "descricao": "Material de Consumo",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.50.39.00.00.00",
+    "codigo_compacto": "33503900",
+    "descricao": "Outros Serviços de Terceiros - Pessoa Ju",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.50.41.00.00.00",
+    "codigo_compacto": "33504100",
+    "descricao": "Contribuições",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.50.42.00.00.00",
+    "codigo_compacto": "33504200",
+    "descricao": "Auxílios",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.50.43.00.00.00",
+    "codigo_compacto": "33504300",
+    "descricao": "Subvenções Sociais",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.60.45.00.00.00",
+    "codigo_compacto": "33604500",
+    "descricao": "Subvenções Econômicas",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.70.41.00.00.00",
+    "codigo_compacto": "33704100",
+    "descricao": "Contribuições",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.72.39.00.00.00",
+    "codigo_compacto": "33723900",
+    "descricao": "Outros Serviços de Terceiros - Pessoa Ju",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.90.14.00.00.00",
+    "codigo_compacto": "33901400",
+    "descricao": "Diárias - Pessoal Civil",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.90.18.00.00.00",
+    "codigo_compacto": "33901800",
+    "descricao": "Auxilio Financeiro a Estudantes",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.90.30.00.00.00",
+    "codigo_compacto": "33903000",
+    "descricao": "Material de Consumo",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.90.31.00.00.00",
+    "codigo_compacto": "33903100",
+    "descricao": "Premiações Culturais, Artísticas, Cienti",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.90.32.00.00.00",
+    "codigo_compacto": "33903200",
+    "descricao": "Material, Bem ou Serviço para Distribuic",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.90.33.00.00.00",
+    "codigo_compacto": "33903300",
+    "descricao": "Passagens e despesas com Locomoção",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.90.35.00.00.00",
+    "codigo_compacto": "33903500",
+    "descricao": "Serviços de Consultoria",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.90.36.00.00.00",
+    "codigo_compacto": "33903600",
+    "descricao": "Outros Auxílios Financeiros a Pessoas Fi",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.90.39.00.00.00",
+    "codigo_compacto": "33903900",
+    "descricao": "Outros Serviços de Terceiros - Pessoa Ju",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.90.40.00.00.00",
+    "codigo_compacto": "33904000",
+    "descricao": "Serviços Tecnologia da Informação e Comu",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.90.45.00.00.00",
+    "codigo_compacto": "33904500",
+    "descricao": "Subvenções Econômicas",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.90.46.00.00.00",
+    "codigo_compacto": "33904600",
+    "descricao": "Auxílio Alimentação",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.90.47.00.00.00",
+    "codigo_compacto": "33904700",
+    "descricao": "Obrigações Tributarias e Contributivas",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.90.48.00.00.00",
+    "codigo_compacto": "33904800",
+    "descricao": "Outros Auxílios Financeiros a Pessoas Fi",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.90.91.00.00.00",
+    "codigo_compacto": "33909100",
+    "descricao": "Sentenças Judiciais",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.90.92.00.00.00",
+    "codigo_compacto": "33909200",
+    "descricao": "Despesas de Exercícios Anteriores",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.90.93.00.00.00",
+    "codigo_compacto": "33909300",
+    "descricao": "Indenizações e Restituições",
+    "classificacao": "Outras Despesas",
+    "grupo": "33"
+  },
+  {
+    "codigo": "4.4.30.42.00.00.00",
+    "codigo_compacto": "44304200",
+    "descricao": "Auxílios",
+    "classificacao": "Outros Investimentos",
+    "grupo": "44"
+  },
+  {
+    "codigo": "4.4.50.41.00.00.00",
+    "codigo_compacto": "44504100",
+    "descricao": "Contribuições",
+    "classificacao": "Outros Investimentos",
+    "grupo": "44"
+  },
+  {
+    "codigo": "4.4.50.42.00.00.00",
+    "codigo_compacto": "44504200",
+    "descricao": "Auxílios",
+    "classificacao": "Outros Investimentos",
+    "grupo": "44"
+  },
+  {
+    "codigo": "4.4.71.70.00.00.00",
+    "codigo_compacto": "44717000",
+    "descricao": "Rateio pela Participação em Consorcio Pu",
+    "classificacao": "Outros Investimentos",
+    "grupo": "44"
+  },
+  {
+    "codigo": "4.4.90.40.00.00.00",
+    "codigo_compacto": "44904000",
+    "descricao": "Serviços Tecnologia da Informação e Comunicação",
+    "classificacao": "Outros Investimentos",
+    "grupo": "44"
+  },
+  {
+    "codigo": "4.4.90.52.00.00.00",
+    "codigo_compacto": "44905200",
+    "descricao": "Equipamentos e Material Permanente",
+    "classificacao": "Outros Investimentos",
+    "grupo": "44"
+  },
+  {
+    "codigo": "4.4.90.93.00.00.00",
+    "codigo_compacto": "44909300",
+    "descricao": "Indenizações e Restituições",
+    "classificacao": "Outros Investimentos",
+    "grupo": "44"
+  },
+  {
+    "codigo": "3.1.90.04.00.00.00",
+    "codigo_compacto": "31900400",
+    "descricao": "Contratação por Tempo determinado",
+    "classificacao": "Pessoal",
+    "grupo": "31"
+  },
+  {
+    "codigo": "3.1.90.11.00.00.00",
+    "codigo_compacto": "31901100",
+    "descricao": "Vencimentos e Vantagens Fixas - Pessoal",
+    "classificacao": "Pessoal",
+    "grupo": "31"
+  },
+  {
+    "codigo": "3.1.90.13.00.00.00",
+    "codigo_compacto": "31901300",
+    "descricao": "Obrigações Patronais",
+    "classificacao": "Pessoal",
+    "grupo": "31"
+  },
+  {
+    "codigo": "3.1.90.16.00.00.00",
+    "codigo_compacto": "31901600",
+    "descricao": "Outras despesas Variáveis - Pessoal Civil",
+    "classificacao": "Pessoal",
+    "grupo": "31"
+  },
+  {
+    "codigo": "3.1.91.13.00.00.00",
+    "codigo_compacto": "31911300",
+    "descricao": "Obrigações Patronais",
+    "classificacao": "Pessoal",
+    "grupo": "31"
+  },
+  {
+    "codigo": "3.3.90.04.00.00.00",
+    "codigo_compacto": "33900400",
+    "descricao": "Contratação por Tempo determinado",
+    "classificacao": "Pessoal",
+    "grupo": "33"
+  },
+  {
+    "codigo": "9.9.99.99.00.00.00",
+    "codigo_compacto": "99999900",
+    "descricao": "Reserva de Contingencia ou Reserva do RP",
+    "classificacao": "Reserva",
+    "grupo": "99"
+  },
+  {
+    "codigo": "3.1.71.70.00.00.00",
+    "codigo_compacto": "31717000",
+    "descricao": "Rateio pela Participação em Consorcio",
+    "classificacao": "Terceirização",
+    "grupo": "31"
+  },
+  {
+    "codigo": "3.3.71.70.00.00.00",
+    "codigo_compacto": "33717000",
+    "descricao": "Rateio pela Participação em Consorcio",
+    "classificacao": "Terceirização",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.90.34.00.00.00",
+    "codigo_compacto": "33903400",
+    "descricao": "Outras despesas de Pessoal decorrente Co",
+    "classificacao": "Terceirização",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.90.37.00.00.00",
+    "codigo_compacto": "33903700",
+    "descricao": "Locação de Mão de Obra",
+    "classificacao": "Terceirização",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.93.34.00.00.00",
+    "codigo_compacto": "33933400",
+    "descricao": "Outras despesas de Pessoal decorrente Co",
+    "classificacao": "Terceirização",
+    "grupo": "33"
+  },
+  {
+    "codigo": "3.3.93.39.00.00.00",
+    "codigo_compacto": "33933900",
+    "descricao": "Outros Serviços de Terceiros - Pessoa Ju",
+    "classificacao": "Terceirização",
+    "grupo": "33"
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "codigo": "1500",
+    "descricao": "Recursos não Vinculados de Impostos",
+    "recurso_vinculado": "RECURSOS LIVRES (NÃO VINCULADOS)"
+  },
+  {
+    "codigo": "1501",
+    "descricao": "Outros Recursos não Vinculados",
+    "recurso_vinculado": "RECURSOS LIVRES (NÃO VINCULADOS)"
+  },
+  {
+    "codigo": "1502",
+    "descricao": "Recursos não vinculados da compensação de impostos",
+    "recurso_vinculado": "RECURSOS LIVRES (NÃO VINCULADOS)"
+  },
+  {
+    "codigo": "1503",
+    "descricao": "Apoio financeiro da União em decorrência de estado de calamidade pública.",
+    "recurso_vinculado": "RECURSOS LIVRES (NÃO VINCULADOS)"
+  },
+  {
+    "codigo": "1540",
+    "descricao": "Transferências do FUNDEB - Impostos e Transferências de Impostos",
+    "recurso_vinculado": "RECURSOS VINCULADOS À EDUCAÇÃO"
+  },
+  {
+    "codigo": "1541",
+    "descricao": "Transferências do FUNDEB - Complementação da União - VAAF",
+    "recurso_vinculado": "RECURSOS VINCULADOS À EDUCAÇÃO"
+  },
+  {
+    "codigo": "1542",
+    "descricao": "Transferências do FUNDEB - Complementação da União - VAAT",
+    "recurso_vinculado": "RECURSOS VINCULADOS À EDUCAÇÃO"
+  },
+  {
+    "codigo": "1543",
+    "descricao": "Transferências do FUNDEB - Complementação da União - VAAR",
+    "recurso_vinculado": "RECURSOS VINCULADOS À EDUCAÇÃO"
+  },
+  {
+    "codigo": "1544",
+    "descricao": "Recursos de Precatórios do FUNDEF",
+    "recurso_vinculado": "RECURSOS VINCULADOS À EDUCAÇÃO"
+  },
+  {
+    "codigo": "1545",
+    "descricao": "Recursos de Precatórios do FUNDEB (2007- 2020)",
+    "recurso_vinculado": "RECURSOS VINCULADOS À EDUCAÇÃO"
+  },
+  {
+    "codigo": "1550",
+    "descricao": "Transferência do Salário-Educação",
+    "recurso_vinculado": "RECURSOS VINCULADOS À EDUCAÇÃO"
+  },
+  {
+    "codigo": "1551",
+    "descricao": "Transferências de Recursos do FNDE referentes ao Programa Dinheiro Direto na Escola (PDDE)",
+    "recurso_vinculado": "RECURSOS VINCULADOS À EDUCAÇÃO"
+  },
+  {
+    "codigo": "1552",
+    "descricao": "Transferências de Recursos do FNDE referentes ao Programa Nacional de Alimentação Escolar (PNAE)",
+    "recurso_vinculado": "RECURSOS VINCULADOS À EDUCAÇÃO"
+  },
+  {
+    "codigo": "1553",
+    "descricao": "Transferências de Recursos do FNDE Referentes ao Programa Nacional de Apoio ao Transporte Escolar (PNATE)",
+    "recurso_vinculado": "RECURSOS VINCULADOS À EDUCAÇÃO"
+  },
+  {
+    "codigo": "1569",
+    "descricao": "Outras Transferências de Recursos do FNDE",
+    "recurso_vinculado": "RECURSOS VINCULADOS À EDUCAÇÃO"
+  },
+  {
+    "codigo": "1570",
+    "descricao": "Transferências do Governo Federal referentes a Convênios e Instrumentos Congêneres vinculados à Educação",
+    "recurso_vinculado": "RECURSOS VINCULADOS À EDUCAÇÃO"
+  },
+  {
+    "codigo": "1571",
+    "descricao": "Transferências do Estado referentes a Convênios e Instrumentos Congêneres vinculados à Educação",
+    "recurso_vinculado": "RECURSOS VINCULADOS À EDUCAÇÃO"
+  },
+  {
+    "codigo": "1572",
+    "descricao": "Transferências de Municípios referentes a Convênios e Instrumentos Congêneres vinculados à Educação",
+    "recurso_vinculado": "RECURSOS VINCULADOS À EDUCAÇÃO"
+  },
+  {
+    "codigo": "1573",
+    "descricao": "Royalties e Participação Especial de Petróleo e Gás Natural Vinculados à Educação - Lei nº 12.858/2013",
+    "recurso_vinculado": "RECURSOS VINCULADOS À EDUCAÇÃO"
+  },
+  {
+    "codigo": "1574",
+    "descricao": "Operações de Crédito Vinculadas à Educação",
+    "recurso_vinculado": "RECURSOS VINCULADOS À EDUCAÇÃO"
+  },
+  {
+    "codigo": "1575",
+    "descricao": "Outras Transferências de Convênios e Instrumentos Congêneres vinculados à Educação",
+    "recurso_vinculado": "RECURSOS VINCULADOS À EDUCAÇÃO"
+  },
+  {
+    "codigo": "1576",
+    "descricao": "Transferências de Recursos dos Estados para programas de educação",
+    "recurso_vinculado": "RECURSOS VINCULADOS À EDUCAÇÃO"
+  },
+  {
+    "codigo": "1599",
+    "descricao": "Outros Recursos Vinculados à Educação",
+    "recurso_vinculado": "RECURSOS VINCULADOS À EDUCAÇÃO"
+  },
+  {
+    "codigo": "1600",
+    "descricao": "Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Federal - Bloco de Manutenção das Ações e Serviços Públicos de Saúde",
+    "recurso_vinculado": "RECURSOS VINCULADOS À SAUDE"
+  },
+  {
+    "codigo": "1601",
+    "descricao": "Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Federal - Bloco de Estruturação da Rede de Serviços Públicos de Saúde",
+    "recurso_vinculado": "RECURSOS VINCULADOS À SAUDE"
+  },
+  {
+    "codigo": "1602",
+    "descricao": "Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Federal - Bloco de Manutenção das Ações e Serviços Públicos de Saúde – Recursos destinados ao enfrentamento da COVID-19 no bojo da ação 21C0",
+    "recurso_vinculado": "RECURSOS VINCULADOS À SAUDE"
+  },
+  {
+    "codigo": "1603",
+    "descricao": "Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Federal - Bloco de Estruturação da Rede de Serviços Públicos de Saúde – Recursos destinados ao enfrentamento da COVID-19 no bojo da ação 21C0",
+    "recurso_vinculado": "RECURSOS VINCULADOS À SAUDE"
+  },
+  {
+    "codigo": "1604",
+    "descricao": "Transferências provenientes do Governo Federal destinadas ao vencimento dos agentes comunitários de saúde e dos agentes de combate às endemias",
+    "recurso_vinculado": "RECURSOS VINCULADOS À SAUDE"
+  },
+  {
+    "codigo": "1605",
+    "descricao": "Assistência financeira da União destinada à complementação ao pagamento dos pisos salariais para profissionais da enfermagem",
+    "recurso_vinculado": "RECURSOS VINCULADOS À SAUDE"
+  },
+  {
+    "codigo": "1621",
+    "descricao": "Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Estadual",
+    "recurso_vinculado": "RECURSOS VINCULADOS À SAUDE"
+  },
+  {
+    "codigo": "1622",
+    "descricao": "Transferências Fundo a Fundo de Recursos do SUS provenientes dos Governos Municipais",
+    "recurso_vinculado": "RECURSOS VINCULADOS À SAUDE"
+  },
+  {
+    "codigo": "1631",
+    "descricao": "Transferências do Governo Federal referentes a Convênios e Instrumentos Congêneres vinculados à Saúde",
+    "recurso_vinculado": "RECURSOS VINCULADOS À SAUDE"
+  },
+  {
+    "codigo": "1632",
+    "descricao": "Transferências do Estado referentes a Convênios e Instrumentos Congêneres vinculados à Saúde",
+    "recurso_vinculado": "RECURSOS VINCULADOS À SAUDE"
+  },
+  {
+    "codigo": "1633",
+    "descricao": "Transferências de Municípios referentes a Convênios e Instumentos Congêneres vinculados à Saúde",
+    "recurso_vinculado": "RECURSOS VINCULADOS À SAUDE"
+  },
+  {
+    "codigo": "1634",
+    "descricao": "Operações de Crédito vinculadas à Saúde",
+    "recurso_vinculado": "RECURSOS VINCULADOS À SAUDE"
+  },
+  {
+    "codigo": "1635",
+    "descricao": "Royalties e Participação Especial de Petróleo e Gás Natural vinculados à Saúde - Lei nº 12.858/2013",
+    "recurso_vinculado": "RECURSOS VINCULADOS À SAUDE"
+  },
+  {
+    "codigo": "1636",
+    "descricao": "Outras Transferências de Convênios e Instrumentos Congêneres vinculados à Saúde",
+    "recurso_vinculado": "RECURSOS VINCULADOS À SAUDE"
+  },
+  {
+    "codigo": "1659",
+    "descricao": "Outros Recursos Vinculados à Saúde",
+    "recurso_vinculado": "RECURSOS VINCULADOS À SAUDE"
+  },
+  {
+    "codigo": "1660",
+    "descricao": "Transferência de Recursos do Fundo Nacional de Assistência Social - FNAS",
+    "recurso_vinculado": "RECURSOS VINCULADOS À ASSISTÊNCIA SOCIAL"
+  },
+  {
+    "codigo": "1661",
+    "descricao": "Transferência de Recursos dos Fundos Estaduais de Assistência Social",
+    "recurso_vinculado": "RECURSOS VINCULADOS À ASSISTÊNCIA SOCIAL"
+  },
+  {
+    "codigo": "1662",
+    "descricao": "Transferências de Recursos dos Fundos Municipais de Assistência Social",
+    "recurso_vinculado": "RECURSOS VINCULADOS À ASSISTÊNCIA SOCIAL"
+  },
+  {
+    "codigo": "1665",
+    "descricao": "Transferências de Convênios e Instrumentos Congêneres vinculados à Assistência Social",
+    "recurso_vinculado": "RECURSOS VINCULADOS À ASSISTÊNCIA SOCIAL"
+  },
+  {
+    "codigo": "1669",
+    "descricao": "Outros Recursos Vinculados à Assistência Social",
+    "recurso_vinculado": "RECURSOS VINCULADOS À ASSISTÊNCIA SOCIAL"
+  },
+  {
+    "codigo": "1700",
+    "descricao": "Outras Transferências de Convênios ou Instrumentos Congêneres da União",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1701",
+    "descricao": "Outras Transferências de Convênios ou Instrumentos Congêneres dos Estados",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1702",
+    "descricao": "Outras Transferências de Convênios ou Instrumentos Congêneres dos Municípios",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1703",
+    "descricao": "Outras Transferências de Convênios ou Instrumentos Congêneres de outras Entidades",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1704",
+    "descricao": "Transferências da União Referentes a Compensações Financeiras pela Exploração de Recursos Naturais",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1705",
+    "descricao": "Transferências dos Estados Referentes a Compensações Financeiras pela Exploração de Recursos Naturais",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1706",
+    "descricao": "Transferência Especial da União",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1707",
+    "descricao": "Transferências da União – inciso I do art. 5º da Lei Complementar 173/2020",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1708",
+    "descricao": "Transferência da União Referente à Compensação Financeira de Recursos Minerais",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1709",
+    "descricao": "Transferência da União referente à Compensação Financeira de Recursos Hídricos",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1710",
+    "descricao": "Transferência Especial dos Estados",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1711",
+    "descricao": "Demais Transferências Obrigatórias não Decorrentes de Repartições de Receitas",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1712",
+    "descricao": "Transferências Fundo a Fundo de Recursos do Fundo Penitenciário - FUNPEN",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1714",
+    "descricao": "Transferências Fundo a Fundo de Recursos do Fundo de Amparo ao Trabalhador - FAT",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1715",
+    "descricao": "Transferências Destinadas ao Setor Cultural - LC nº 195/2022 - Art. 5º - Audiovisual",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1716",
+    "descricao": "Transferências Destinadas ao Setor Cultural - LC nº 195/2022 - Art. 8º - Demais Setores da Cultura",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1717",
+    "descricao": "Assistência Financeira Transporte Coletivo - Art. 5º, Inciso IV, EC nº 123/2022",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1718",
+    "descricao": "Auxílio Financeiro - Outorga Crédito Tributário ICMS - Art. 5º, Inciso V, EC nº 123/2022",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1719",
+    "descricao": "Transferências da Política Nacional Aldir Blanc de Fomento à Cultura - Lei nº 14.399/202",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1720",
+    "descricao": "Transferência da União referentes às participações na exploração de Petróleo e Gás Natural destinadas ao FEP - Lei 9.478/1997",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1721",
+    "descricao": "Transferências da União referentes a Cessão Onerosa de Petróleo – Lei nº 13.885/2019",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1747",
+    "descricao": "Outras vinculações de transferências da União",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1748",
+    "descricao": "Outras vinculações de transferências dos Estados",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1749",
+    "descricao": "Outras vinculações de transferências",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES DECORRENTES DE TRANSFERÊNCIAS"
+  },
+  {
+    "codigo": "1750",
+    "descricao": "Recursos da Contribuição de Intervenção no Domínio Econômico - CIDE",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES LEGAIS"
+  },
+  {
+    "codigo": "1751",
+    "descricao": "Recursos da Contribuição para o Custeio do Serviço de Iluminação Pública - COSIP",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES LEGAIS"
+  },
+  {
+    "codigo": "1752",
+    "descricao": "Recursos Vinculados ao Trânsito",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES LEGAIS"
+  },
+  {
+    "codigo": "1753",
+    "descricao": "Recursos Provenientes de Taxas, Contribuições e Preços Públicos",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES LEGAIS"
+  },
+  {
+    "codigo": "1754",
+    "descricao": "Recursos de Operações de Crédito",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES LEGAIS"
+  },
+  {
+    "codigo": "1755",
+    "descricao": "Recursos de Alienação de Bens/Ativos - Administração Direta",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES LEGAIS"
+  },
+  {
+    "codigo": "1756",
+    "descricao": "Recursos de Alienação de Bens/Ativos - Administração Indireta",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES LEGAIS"
+  },
+  {
+    "codigo": "1757",
+    "descricao": "Recursos de Depósitos Judiciais\n– Lides das quais o Ente faz parte",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES LEGAIS"
+  },
+  {
+    "codigo": "1758",
+    "descricao": "Recursos de Depósitos Judiciais – Lides das quais o Ente não faz parte",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES LEGAIS"
+  },
+  {
+    "codigo": "1759",
+    "descricao": "Recursos Vinculados a Fundos",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES LEGAIS"
+  },
+  {
+    "codigo": "1761",
+    "descricao": "Recursos vinculados ao Fundo de Combate e Erradicação da Pobreza",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES LEGAIS"
+  },
+  {
+    "codigo": "1799",
+    "descricao": "Outras Vinculações Legais",
+    "recurso_vinculado": "DEMAIS VINCULAÇÕES LEGAIS"
+  },
+  {
+    "codigo": "1800",
+    "descricao": "Recursos Vinculados ao RPPS - Fundo em Capitalização (Plano Previdenciário)",
+    "recurso_vinculado": "RECURSOS VINCULADOS À PREVIDÊNCIA SOCIAL"
+  },
+  {
+    "codigo": "1801",
+    "descricao": "Recursos Vinculados ao RPPS - Fundo em Repartição (Plano Financeiro)",
+    "recurso_vinculado": "RECURSOS VINCULADOS À PREVIDÊNCIA SOCIAL"
+  },
+  {
+    "codigo": "1802",
+    "descricao": "Recursos Vinculados ao RPPS - Taxa de Administração",
+    "recurso_vinculado": "RECURSOS VINCULADOS À PREVIDÊNCIA SOCIAL"
+  },
+  {
+    "codigo": "1804",
+    "descricao": "Demais Recursos Previdenciários",
+    "recurso_vinculado": "RECURSOS VINCULADOS À PREVIDÊNCIA SOCIAL"
+  },
+  {
+    "codigo": "1862",
+    "descricao": "Recursos de Depósitos de Terceiros",
+    "recurso_vinculado": "RECURSOS EXTRAORÇAMENTÁRIOS"
+  },
+  {
+    "codigo": "1869",
+    "descricao": "Outros Recursos Extraorçamentários",
+    "recurso_vinculado": "RECURSOS EXTRAORÇAMENTÁRIOS"
+  },
+  {
+    "codigo": "1880",
+    "descricao": "Recursos Próprios dos Consórcios",
+    "recurso_vinculado": "OUTRAS VINCULAÇÕES"
+  },
+  {
+    "codigo": "1898",
+    "descricao": "Recursos a Classificar",
+    "recurso_vinculado": "OUTRAS VINCULAÇÕES"
+  },
+  {
+    "codigo": "1899",
+    "descricao": "Outros Recursos Vinculados",
+    "recurso_vinculado": "OUTRAS VINCULAÇÕES"
+  }
+]

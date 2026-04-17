@@ -1,0 +1,98 @@
+[
+  {
+    "codigo": "1",
+    "descricao": "GABINETE"
+  },
+  {
+    "codigo": "2",
+    "descricao": "SECRETARIA"
+  },
+  {
+    "codigo": "3",
+    "descricao": "SECRETARIA MUNICIPAL DE ADMINISTRACAO"
+  },
+  {
+    "codigo": "4",
+    "descricao": "SECRETARIA MUNICIPAL DE FAZENDA"
+  },
+  {
+    "codigo": "5",
+    "descricao": "SECRETARIA MUNICIPAL DE OBRAS"
+  },
+  {
+    "codigo": "6",
+    "descricao": "SECRETARIA MUNICIPAL DE SAUDE"
+  },
+  {
+    "codigo": "7",
+    "descricao": "SECRETARIA MUNICIPAL DE EDUCACAO"
+  },
+  {
+    "codigo": "8",
+    "descricao": "SECRETARIA MUN DE ESPORTES, LAZER E TURI"
+  },
+  {
+    "codigo": "9",
+    "descricao": "SEC MUN DE TRABALHO E DESENVOLVIMENTO SO"
+  },
+  {
+    "codigo": "10",
+    "descricao": "SECRETARIA MUNICIPAL DE MEIO AMBIENTE"
+  },
+  {
+    "codigo": "11",
+    "descricao": "SECRETARIA MUNICIPAL DE AGRICULTURA"
+  },
+  {
+    "codigo": "12",
+    "descricao": "FUNDO MUNICIPAL DE ASSISTENCIA SOCIAL"
+  },
+  {
+    "codigo": "13",
+    "descricao": "FUNDO MUNICIPAL DA CRIANCA E DO ADOLESCE"
+  },
+  {
+    "codigo": "14",
+    "descricao": "SECRETARIA MUNICIPAL DE PLANEJAMENTO"
+  },
+  {
+    "codigo": "15",
+    "descricao": "SECRETARIA MUNICIPAL DE SERVICOS URBANOS"
+  },
+  {
+    "codigo": "16",
+    "descricao": "SECRETARIA MUNICIPAL DE CULTURA - SEMUC"
+  },
+  {
+    "codigo": "17",
+    "descricao": "SECRETARIA MUNICIPAL DE DESENVOLVIMENTO"
+  },
+  {
+    "codigo": "18",
+    "descricao": "CONTROLADORIA GERAL MUNICIPAL - COGEM"
+  },
+  {
+    "codigo": "20",
+    "descricao": "SECRETARIA MUNICIPAL DE CIENCIA E TECNOL"
+  },
+  {
+    "codigo": "22",
+    "descricao": "FUNDO MUNICIPAL DO IDOSO"
+  },
+  {
+    "codigo": "23",
+    "descricao": "GABINETE DO PREFEITO"
+  },
+  {
+    "codigo": "24",
+    "descricao": "SECRETARIA MUNICIPAL DE GESTAO DE PESSOA"
+  },
+  {
+    "codigo": "25",
+    "descricao": "SECRETARIA MUNICIPAL DE TRANSPORTE"
+  },
+  {
+    "codigo": "26",
+    "descricao": "FUNDO M. DA PESSOA COM DEFICIENCIA"
+  }
+]

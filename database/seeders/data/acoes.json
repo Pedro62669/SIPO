@@ -1,0 +1,1262 @@
+[
+  {
+    "programa_codigo": "31",
+    "codigo": "1",
+    "descricao": "REFORMA/AMPLICACAO SEDE DA CAMARA"
+  },
+  {
+    "programa_codigo": "31",
+    "codigo": "2",
+    "descricao": "AQUISICAO DE EQUIPAMENTOS E VEICULOS"
+  },
+  {
+    "programa_codigo": "31",
+    "codigo": "6",
+    "descricao": "Manutencao do Centro de Atendimento ao Cidadao"
+  },
+  {
+    "programa_codigo": "31",
+    "codigo": "7",
+    "descricao": "Manutencao do PROCON"
+  },
+  {
+    "programa_codigo": "31",
+    "codigo": "8",
+    "descricao": "Manutencao da Escola do Legislativo"
+  },
+  {
+    "programa_codigo": "31",
+    "codigo": "9",
+    "descricao": "Manutençaõ da Procuradoria Juridica"
+  },
+  {
+    "programa_codigo": "31",
+    "codigo": "10",
+    "descricao": "Manutenção do Centro de Processamento de Dados"
+  },
+  {
+    "programa_codigo": "182",
+    "codigo": "212",
+    "descricao": "MANUTENCAO DEFESA CIVIL"
+  },
+  {
+    "programa_codigo": "182",
+    "codigo": "230",
+    "descricao": "MANUTENÇÃO FUNDO DEFESA CIVIL"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "1",
+    "descricao": "ADMINISTRACAO DA UNIDADE-SEGOV"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "90",
+    "descricao": "APOIO RADIO SÃO GONÇALO"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "92",
+    "descricao": "APOIO ENTIDADES E ASSOCIAÇÕES"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "128",
+    "descricao": "MANUTENÇÃO DAS ATIVIDADES COM CONSÓRCIOS PÚBLICOS"
+  },
+  {
+    "programa_codigo": "131",
+    "codigo": "215",
+    "descricao": "DIVULGACAO GOVERNAMENTAL"
+  },
+  {
+    "programa_codigo": "181",
+    "codigo": "217",
+    "descricao": "APOIO SEGURANCA PUBLICA PMMG"
+  },
+  {
+    "programa_codigo": "181",
+    "codigo": "218",
+    "descricao": "APOIO SEGURANCA PUBLICA PCMG"
+  },
+  {
+    "programa_codigo": "181",
+    "codigo": "219",
+    "descricao": "APOIO SEGURANCA PUBLICA CBMG"
+  },
+  {
+    "programa_codigo": "181",
+    "codigo": "306",
+    "descricao": "MANUTENCAO GUARDA CIVIL MUNICIPAL"
+  },
+  {
+    "programa_codigo": "182",
+    "codigo": "243",
+    "descricao": "CONSTRUCAO E/OU REFORMA DA SEDE DA GUARDA MUNICIPAL"
+  },
+  {
+    "programa_codigo": "92",
+    "codigo": "5",
+    "descricao": "ADMINISTRACAO DA UNIDADE PROJUR"
+  },
+  {
+    "programa_codigo": "846",
+    "codigo": "2",
+    "descricao": "INDENIZACAO E ACOES JUDICIAIS E ADM - PROJUR"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "246",
+    "descricao": "CONSTRUÇÃO REFORMA E AMPLIAÇÃO - ALMOXARIFADO CENTRAL"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "6",
+    "descricao": "ADMINISTRACAO DA UNIDADE - SEMAD"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "84",
+    "descricao": "ADMINISTRAÇÃO DA UNIDADE - ALMOXARIFADO CENTRAL"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "85",
+    "descricao": "AQUISIÇÃO DE ITENS DA AGRICULTURA FAMILIAR - PAB"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "187",
+    "descricao": "ADMINISTRAÇÃO DA UNIDADE - CENTRO ADMININTRATIVO"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "220",
+    "descricao": "CONSMEPI"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "227",
+    "descricao": "ACOES DE FISCALIZACAO SEFAZ"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "228",
+    "descricao": "MODERNIZACAO DA GESTAO TRIBUTARIA"
+  },
+  {
+    "programa_codigo": "123",
+    "codigo": "4",
+    "descricao": "AQUISICAO DE EQUIPAMENTO E MATERIAL PERMANENTE"
+  },
+  {
+    "programa_codigo": "129",
+    "codigo": "8",
+    "descricao": "ADMINISTRACAO DA UNIDADE - SEFAZ"
+  },
+  {
+    "programa_codigo": "846",
+    "codigo": "4",
+    "descricao": "GESTAO DA DIVIDA FUNDADA"
+  },
+  {
+    "programa_codigo": "846",
+    "codigo": "5",
+    "descricao": "CONTRIBUICAO AO PASEP"
+  },
+  {
+    "programa_codigo": "846",
+    "codigo": "6",
+    "descricao": "INDENIZACOES E ACOES JUDICIAIS E ADM - SEFAZ"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "5",
+    "descricao": "AQUISICAO DE EQUIP. E MATERIAL PERMANENTE - SEMOB"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "9",
+    "descricao": "ADMINISTRACAO DA UNIDADE - SEMOB"
+  },
+  {
+    "programa_codigo": "61",
+    "codigo": "130",
+    "descricao": "DESAPROPRIACOES INDENIZACOES DE IMOVEIS E TERRENOS"
+  },
+  {
+    "programa_codigo": "451",
+    "codigo": "8",
+    "descricao": "OBRAS DE CANALIZAÇÃO, DRENAGEM E OBRAS DE ARTE ESPECIAIS"
+  },
+  {
+    "programa_codigo": "451",
+    "codigo": "10",
+    "descricao": "CONSTRUCAO DE MURO DE ARRIMO"
+  },
+  {
+    "programa_codigo": "451",
+    "codigo": "161",
+    "descricao": "CONSTRUÇÃO E RESTAURAÇÃO OU REFORMA DE PONTES E TRAVESSIAS"
+  },
+  {
+    "programa_codigo": "451",
+    "codigo": "205",
+    "descricao": "PAVIMENTACAO DE ESTRADAS RURAIS"
+  },
+  {
+    "programa_codigo": "451",
+    "codigo": "222",
+    "descricao": "RESTAURACAO MORRO DAS ALMAS"
+  },
+  {
+    "programa_codigo": "451",
+    "codigo": "56",
+    "descricao": "ABERTURA E PAVIMENTAÇÃO DE NOVOS ACESSOS URBANOS"
+  },
+  {
+    "programa_codigo": "451",
+    "codigo": "212",
+    "descricao": "CONSTRUÇÃO E RECUPERAÇÃO DE GABIOES E ESTRUTURAS DE CONTENÇÃO"
+  },
+  {
+    "programa_codigo": "451",
+    "codigo": "221",
+    "descricao": "REVITALIZACAO DO CENTRO"
+  },
+  {
+    "programa_codigo": "451",
+    "codigo": "270",
+    "descricao": "EXTENSÕES DE REDE ELÉTRICA E EXPANSÃO DA ILUMINAÇÃO PÚBLICA"
+  },
+  {
+    "programa_codigo": "452",
+    "codigo": "171",
+    "descricao": "IMPLANTAÇÃO DE PORTAIS E ELEMENTOS VISUAIS DE IDENTIFICAÇÃO DO MUNICÍPIO"
+  },
+  {
+    "programa_codigo": "543",
+    "codigo": "235",
+    "descricao": "REVEGETAÇÃO, RECOMPOSIÇÃO E MANUTENÇÃO DE TALUDES E ENCOSTAS"
+  },
+  {
+    "programa_codigo": "782",
+    "codigo": "236",
+    "descricao": "PAVIMENTAÇÃO ESTRADA DO TIMIRIM"
+  },
+  {
+    "programa_codigo": "782",
+    "codigo": "237",
+    "descricao": "REFORMA E CONSERVAÇÃO DE ESTRADAS MUNICIPAIS"
+  },
+  {
+    "programa_codigo": "125",
+    "codigo": "234",
+    "descricao": "IMPLANTAÇÃO E REFORMA DE ESPAÇOS PARA ESTACIONAMENTO PÚBLICOS NAS ÁREAS URBANAS DO MUNICÍPIO"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "18",
+    "descricao": "AQUISICAO DE EQUIPAMENTO E MATERIAL PERM SAUDE"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "11",
+    "descricao": "ADMINISTRACAO DA SECRETARIA MUNICIPAL DE SAUDE"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "14",
+    "descricao": "PROMOÇÃO DE POLÍTICAS PÚBLICAS SOBRE DROGAS"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "98",
+    "descricao": "MANUTENCAO DO CONSELHO MUN DE SAUDE"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "144",
+    "descricao": "ATENCAO A SAUDE REC BLOCO GESTAO SUS"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "152",
+    "descricao": "GESTAO E CONTROLE DE FROTAS"
+  },
+  {
+    "programa_codigo": "301",
+    "codigo": "131",
+    "descricao": "AQUISICAO DE EQUIPAMENTO E MAT PERM SAUDE"
+  },
+  {
+    "programa_codigo": "301",
+    "codigo": "144",
+    "descricao": "CONSTRUCAO ,REFORMA E/OU ADAPTACAO DE PRED.PROPRIO"
+  },
+  {
+    "programa_codigo": "301",
+    "codigo": "219",
+    "descricao": "CONSTRUCAO, REFORMA E AMPLIAÇÃO DE UBS  E PRÉDIOS DA SAÚDE"
+  },
+  {
+    "programa_codigo": "301",
+    "codigo": "153",
+    "descricao": "GESTAO DO ATENDIMENTO APS"
+  },
+  {
+    "programa_codigo": "301",
+    "codigo": "193",
+    "descricao": "APLICAÇÃO DE RECURSOS PROVENIENTES DE EMENDAS PARLAMENTARES NA SAUDE"
+  },
+  {
+    "programa_codigo": "301",
+    "codigo": "313",
+    "descricao": "MANUTENÇÃO DAS ATIVIDADES COM CONSÓRCIOS PÚBLICOS APS"
+  },
+  {
+    "programa_codigo": "302",
+    "codigo": "30",
+    "descricao": "AQUISICAO DE EQUIPAMENTO E MAT. PERM. SAUDE"
+  },
+  {
+    "programa_codigo": "302",
+    "codigo": "128",
+    "descricao": "MANUTENÇÃO DAS ATIVIDADES COM CONSÓRCIOS PÚBLICOS"
+  },
+  {
+    "programa_codigo": "302",
+    "codigo": "154",
+    "descricao": "GESTAO HOSPITALAR E AMBULATORIAL"
+  },
+  {
+    "programa_codigo": "302",
+    "codigo": "156",
+    "descricao": "GESTAO DA SAUDE MENTAL"
+  },
+  {
+    "programa_codigo": "302",
+    "codigo": "157",
+    "descricao": "GESTAO DE ATENDIMENTOS ESPECIALIZADOS"
+  },
+  {
+    "programa_codigo": "303",
+    "codigo": "139",
+    "descricao": "ASSISTENCIA FARMACEUTICA"
+  },
+  {
+    "programa_codigo": "303",
+    "codigo": "202",
+    "descricao": "ASSISTENCIA FARMACEUTICA ESPECIALIZADA"
+  },
+  {
+    "programa_codigo": "304",
+    "codigo": "135",
+    "descricao": "AQUIS.EQUIP.MAT.PERM VIGILANCIA PVISA"
+  },
+  {
+    "programa_codigo": "304",
+    "codigo": "244",
+    "descricao": "CONSTRUÇÃO CENTRO DE ZOONOSES"
+  },
+  {
+    "programa_codigo": "304",
+    "codigo": "23",
+    "descricao": "GESTAO DA VIGILANCIA SANITARIA"
+  },
+  {
+    "programa_codigo": "304",
+    "codigo": "191",
+    "descricao": "AÇÕES DE VIGILÂNCIA, CONTROLE E DIAGNÓSTICO DE ZOONOSES NO MUNICÍPIO"
+  },
+  {
+    "programa_codigo": "305",
+    "codigo": "136",
+    "descricao": "AQUISICAO DE EQUIP.MAT.PERM VIG.EPID.E AMB BLVGS"
+  },
+  {
+    "programa_codigo": "305",
+    "codigo": "137",
+    "descricao": "GESTAO DA VIG. EPIDEMIOLOGICA E AMBIENTAL"
+  },
+  {
+    "programa_codigo": "306",
+    "codigo": "158",
+    "descricao": "COMBATE A CARENCIAS NUTRICIONAIS"
+  },
+  {
+    "programa_codigo": "846",
+    "codigo": "51",
+    "descricao": "MONITORAMENTO E RESPOSTA ÀS EMERGÊNCIAS EM SAÚDE PÚBLICA E SÍNDROMES GRIPAIS"
+  },
+  {
+    "programa_codigo": "846",
+    "codigo": "60",
+    "descricao": "COLABORAÇÃO TÉCNICA-CIENTÍFICA COM INSTITUIÇÕES DE ENSINO SUPERIOR"
+  },
+  {
+    "programa_codigo": "846",
+    "codigo": "8",
+    "descricao": "PARCERIA COM ENTIDADES PARA ATENÇÃO À PESSOA COM NECESSIDADES ESPECIAIS"
+  },
+  {
+    "programa_codigo": "361",
+    "codigo": "37",
+    "descricao": "ENSINO FUNDAMENTAL FUNDEB"
+  },
+  {
+    "programa_codigo": "365",
+    "codigo": "175",
+    "descricao": "ENSINO INFANTIL FUNDEB"
+  },
+  {
+    "programa_codigo": "365",
+    "codigo": "176",
+    "descricao": "ENSINO FUNDEB-CRECHE"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "95",
+    "descricao": "NÚCLEO DE ATENDIMENTO INTERDISCIPLINAR ESCOLAR"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "26",
+    "descricao": "MANUTENCAO DA SECRETARIA MUNICIPAL DE EDUCACAO"
+  },
+  {
+    "programa_codigo": "306",
+    "codigo": "109",
+    "descricao": "ALIMENTAÇÃO ESCOLAR - INFATIL"
+  },
+  {
+    "programa_codigo": "306",
+    "codigo": "110",
+    "descricao": "ALIMENTAÇÃO ESCOLAR - CRECHE"
+  },
+  {
+    "programa_codigo": "306",
+    "codigo": "108",
+    "descricao": "ALIMENTAÇÃO ESCOLAR - FUNDAMENTAL"
+  },
+  {
+    "programa_codigo": "361",
+    "codigo": "102",
+    "descricao": "CONSTRUÇÃO DA ESCOLA DE PACAS"
+  },
+  {
+    "programa_codigo": "361",
+    "codigo": "111",
+    "descricao": "CONSTRUÇÃO E OU REFORMA DO ALMOXARIFADO DA EDUCAÇÃO"
+  },
+  {
+    "programa_codigo": "361",
+    "codigo": "115",
+    "descricao": "MANUTECAO EQUOTERAPIA PROFISSIONAIS"
+  },
+  {
+    "programa_codigo": "361",
+    "codigo": "107",
+    "descricao": "CONSTRUÇÃO E OU REFORMA DE ESCOLAS DO ENSINO FUNDAMENTAL"
+  },
+  {
+    "programa_codigo": "361",
+    "codigo": "28",
+    "descricao": "MANUTENCAO DO ENSINO FUNDAMENTAL"
+  },
+  {
+    "programa_codigo": "361",
+    "codigo": "168",
+    "descricao": "MANUTENCAO TRANSPORTE ESCOLAR FUNDAMENTAL"
+  },
+  {
+    "programa_codigo": "362",
+    "codigo": "259",
+    "descricao": "CURSINHO ENEM"
+  },
+  {
+    "programa_codigo": "363",
+    "codigo": "179",
+    "descricao": "APOIO AO ENSINO SUPERIOR E PÓS GRADUAÇÃO AUXILIO ESTUDANTIL."
+  },
+  {
+    "programa_codigo": "363",
+    "codigo": "181",
+    "descricao": "PARCERIAS DE ENSINO-SENAI"
+  },
+  {
+    "programa_codigo": "365",
+    "codigo": "247",
+    "descricao": "CONSTRUÇÃO DE CRECHE - ENSINO INFANTIL - CRECHE"
+  },
+  {
+    "programa_codigo": "365",
+    "codigo": "31",
+    "descricao": "MANUTENCAO DO ENSINO INFANTIL"
+  },
+  {
+    "programa_codigo": "365",
+    "codigo": "150",
+    "descricao": "MANUTENCAO TRANSPORTE ESCOLAR INFANTIL"
+  },
+  {
+    "programa_codigo": "365",
+    "codigo": "151",
+    "descricao": "MANUTENCAO DO TRANSPORTE ESCOLAR CRECHE"
+  },
+  {
+    "programa_codigo": "365",
+    "codigo": "178",
+    "descricao": "MANUTENCAO DO ENSINO INFANTIL-CRECHE"
+  },
+  {
+    "programa_codigo": "846",
+    "codigo": "24",
+    "descricao": "APOIO A EDUCACAO ESPECIAL-APAE"
+  },
+  {
+    "programa_codigo": "813",
+    "codigo": "44",
+    "descricao": "MANUTENCAO DO FMEL"
+  },
+  {
+    "programa_codigo": "813",
+    "codigo": "85",
+    "descricao": "CONSTRUÇÃO E REFORMA DE ESPAÇOS PARA LAZER"
+  },
+  {
+    "programa_codigo": "813",
+    "codigo": "199",
+    "descricao": "CONSTRUÇÃO E REFORMA DE CAMPOS DE FUTEBOL"
+  },
+  {
+    "programa_codigo": "813",
+    "codigo": "200",
+    "descricao": "CONSTRUÇÃO E REFORMA DE QUADRAS E GINÁSIOS"
+  },
+  {
+    "programa_codigo": "813",
+    "codigo": "38",
+    "descricao": "MANUTENCAO DA SECRETARIA DE ESPORTES E LAZER"
+  },
+  {
+    "programa_codigo": "813",
+    "codigo": "39",
+    "descricao": "FOMENTO AO ESPORTE E LAZER"
+  },
+  {
+    "programa_codigo": "813",
+    "codigo": "186",
+    "descricao": "MANUTENÇÃO DE PROJETOS ESPORTIVOS"
+  },
+  {
+    "programa_codigo": "846",
+    "codigo": "45",
+    "descricao": "SUBVENCAO A ENTIDADES ESPORTIVAS"
+  },
+  {
+    "programa_codigo": "244",
+    "codigo": "177",
+    "descricao": "REGULARIZAÇÃO FUNDIÁRIA"
+  },
+  {
+    "programa_codigo": "244",
+    "codigo": "229",
+    "descricao": "GESTÃO DA HABITAÇAO"
+  },
+  {
+    "programa_codigo": "245",
+    "codigo": "48",
+    "descricao": "CONSTRUCAO DE HABITACOES POPULARES"
+  },
+  {
+    "programa_codigo": "245",
+    "codigo": "49",
+    "descricao": "REFORMA DE HABITACOES POPULARES"
+  },
+  {
+    "programa_codigo": "245",
+    "codigo": "50",
+    "descricao": "APOIO CONSTRUCAO DE CASAS POPULARES"
+  },
+  {
+    "programa_codigo": "243",
+    "codigo": "49",
+    "descricao": "MANUTENCAO E FUNCIONAMENTO DO CONSELHO TUTELAR"
+  },
+  {
+    "programa_codigo": "243",
+    "codigo": "89",
+    "descricao": "OPERALIZAÇÃO  DO CREAM"
+  },
+  {
+    "programa_codigo": "244",
+    "codigo": "46",
+    "descricao": "CONSTRUCAO DE REFORMA DE PREDIOS PROPRIOS"
+  },
+  {
+    "programa_codigo": "244",
+    "codigo": "45",
+    "descricao": "GESTAO DA POLITICA DE ASSISTENCIA SOCIAL"
+  },
+  {
+    "programa_codigo": "244",
+    "codigo": "47",
+    "descricao": "CAPACITACAO PARA OS BENEFICIÁRIOS"
+  },
+  {
+    "programa_codigo": "846",
+    "codigo": "12",
+    "descricao": "SUBVENCOES ENTIDADES-AASGRA"
+  },
+  {
+    "programa_codigo": "541",
+    "codigo": "68",
+    "descricao": "CONSTRUCAO, AMPLIAÇÃO E REFORMA FAZENDA ECOLOGICA - AGROFLORESTA"
+  },
+  {
+    "programa_codigo": "541",
+    "codigo": "105",
+    "descricao": "ATERRO DE MATERIAL INERTE"
+  },
+  {
+    "programa_codigo": "541",
+    "codigo": "145",
+    "descricao": "OBRAS E INSTALACOES ATERRO SANITARIO"
+  },
+  {
+    "programa_codigo": "541",
+    "codigo": "167",
+    "descricao": "OBRAS, INSTALAÇÕES  E REFORMAS DO VIVEIRO MUNICIPAL"
+  },
+  {
+    "programa_codigo": "541",
+    "codigo": "183",
+    "descricao": "AQUISIÇAO DE EQUIP E MAT PERMANENTE ATERRO"
+  },
+  {
+    "programa_codigo": "541",
+    "codigo": "187",
+    "descricao": "OBRAS, INSTALAÇÕES E REFORMAS FÁBRICA DE SABÃO"
+  },
+  {
+    "programa_codigo": "541",
+    "codigo": "191",
+    "descricao": "OBRAS, INSTALAÇÕES E REFORMAS UNID. DE CONS. PETI"
+  },
+  {
+    "programa_codigo": "541",
+    "codigo": "248",
+    "descricao": "IMPLANTAÇÃO PTRF"
+  },
+  {
+    "programa_codigo": "541",
+    "codigo": "52",
+    "descricao": "CERCAR PARA NAO SECAR"
+  },
+  {
+    "programa_codigo": "541",
+    "codigo": "53",
+    "descricao": "MANUTENCAO DO FMMA"
+  },
+  {
+    "programa_codigo": "541",
+    "codigo": "54",
+    "descricao": "CONVENIO POLICIA MILITAR DE MEIO AMBIENTE"
+  },
+  {
+    "programa_codigo": "541",
+    "codigo": "102",
+    "descricao": "MANUTENCAO DA UNID. DE CONS. PETI"
+  },
+  {
+    "programa_codigo": "541",
+    "codigo": "104",
+    "descricao": "MANUTENCAO DO FAZENDA ECOLOGICA - AGROFLORESTA"
+  },
+  {
+    "programa_codigo": "541",
+    "codigo": "128",
+    "descricao": "MANUTENÇÃO DAS ATIVIDADES COM CONSÓRCIOS PÚBLICOS"
+  },
+  {
+    "programa_codigo": "541",
+    "codigo": "132",
+    "descricao": "EDUCACAO AMBIENTAL"
+  },
+  {
+    "programa_codigo": "541",
+    "codigo": "140",
+    "descricao": "CRIAÇÃO E MANUTENÇÃO DA BRIGADA FLORESTAL"
+  },
+  {
+    "programa_codigo": "541",
+    "codigo": "232",
+    "descricao": "MANUTENÇÃO DO ATERRO SANITÁRIO"
+  },
+  {
+    "programa_codigo": "541",
+    "codigo": "233",
+    "descricao": "MANUTENÇÃO DO VIVEIRO DE MUDAS"
+  },
+  {
+    "programa_codigo": "541",
+    "codigo": "234",
+    "descricao": "MANUTENÇÃO FÁBRICA DE SABÃO"
+  },
+  {
+    "programa_codigo": "541",
+    "codigo": "236",
+    "descricao": "UNIDADE DE CONSERVAÇÃO E PRESERVAÇÃO"
+  },
+  {
+    "programa_codigo": "541",
+    "codigo": "257",
+    "descricao": "MANUTENCAO DE JARDINS E PAISAGISMO"
+  },
+  {
+    "programa_codigo": "542",
+    "codigo": "166",
+    "descricao": "OBRAS, INSTALAÇÕES E REFORMAS DO PARQUE ECOLOGICO URBANO"
+  },
+  {
+    "programa_codigo": "541",
+    "codigo": "182",
+    "descricao": "OBRAS, INSTALAÇÕES E REFORMAS SEMMA"
+  },
+  {
+    "programa_codigo": "541",
+    "codigo": "51",
+    "descricao": "MANUTENCAO DAS ATIVIDADES DA SEMMA"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "55",
+    "descricao": "MANUTENCAO DAS ATIVIDADES DA SECRETARIA"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "145",
+    "descricao": "CONSMEPI"
+  },
+  {
+    "programa_codigo": "605",
+    "codigo": "55",
+    "descricao": "AQUISICAO DE EQUIPAMENTO E MATERIAL PERMANENTE"
+  },
+  {
+    "programa_codigo": "608",
+    "codigo": "98",
+    "descricao": "PORTARIA DO PARQUE DE EXPOSIÇÕES"
+  },
+  {
+    "programa_codigo": "608",
+    "codigo": "56",
+    "descricao": "APOIO AO PRODUTOR RURAL"
+  },
+  {
+    "programa_codigo": "608",
+    "codigo": "57",
+    "descricao": "PROMOCAO DE EVENTOS"
+  },
+  {
+    "programa_codigo": "608",
+    "codigo": "121",
+    "descricao": "CONVENIO E PARCEIRIAS"
+  },
+  {
+    "programa_codigo": "608",
+    "codigo": "237",
+    "descricao": "DESENVOLVIMENTO RURAL"
+  },
+  {
+    "programa_codigo": "608",
+    "codigo": "238",
+    "descricao": "PATRULHA AGRÍCOLA"
+  },
+  {
+    "programa_codigo": "244",
+    "codigo": "115",
+    "descricao": "AQUISICAO EQUIP/MAT. PERMANENTE CRAS/PAIF"
+  },
+  {
+    "programa_codigo": "244",
+    "codigo": "178",
+    "descricao": "AQUISICAO DE EQUI/MAT PERMANENTE CREAS"
+  },
+  {
+    "programa_codigo": "244",
+    "codigo": "61",
+    "descricao": "OPER. DA VIGILANCIA SOCIOASSISTENCIAL/ GESTAO SUAS"
+  },
+  {
+    "programa_codigo": "244",
+    "codigo": "63",
+    "descricao": "SERV. FORT. DE VINCULOS CRIA/ADOLES/IDOSO"
+  },
+  {
+    "programa_codigo": "244",
+    "codigo": "64",
+    "descricao": "BENEFICIOS EVENTUAIS"
+  },
+  {
+    "programa_codigo": "244",
+    "codigo": "66",
+    "descricao": "SERV DE PROT. SOCIAL MEDIDA SOCIOEDUCATIVA-LA/PSC"
+  },
+  {
+    "programa_codigo": "244",
+    "codigo": "189",
+    "descricao": "GESTAO DO SUAS"
+  },
+  {
+    "programa_codigo": "244",
+    "codigo": "231",
+    "descricao": "OPERACIONALIZAÇÃO DO PROGRAMA ACESSUAS TRABALHO"
+  },
+  {
+    "programa_codigo": "245",
+    "codigo": "59",
+    "descricao": "OPERACIONALIZACAO DO PROG. BOLSA FAMILIA/CAD UNICO"
+  },
+  {
+    "programa_codigo": "245",
+    "codigo": "60",
+    "descricao": "GESTAO DO TRABALHO/ACOES DE QUALIFICACAO"
+  },
+  {
+    "programa_codigo": "245",
+    "codigo": "62",
+    "descricao": "MANUT. E OPERAC. DO CENTRO DE REF SOCIAL CRAS/PAIF"
+  },
+  {
+    "programa_codigo": "245",
+    "codigo": "65",
+    "descricao": "MUNUTENCAO E OPERACIONALIZACAO DO CREAS"
+  },
+  {
+    "programa_codigo": "245",
+    "codigo": "103",
+    "descricao": "CARTAO CIDADAO"
+  },
+  {
+    "programa_codigo": "846",
+    "codigo": "13",
+    "descricao": "SUBVENCAO PARA ENTIDADE"
+  },
+  {
+    "programa_codigo": "243",
+    "codigo": "48",
+    "descricao": "MANUTENCAO E FUNCIONAMENTO DO CMDCA"
+  },
+  {
+    "programa_codigo": "243",
+    "codigo": "69",
+    "descricao": "ATENDIMENTO A CRIANCA E AO ADOLESCENTE"
+  },
+  {
+    "programa_codigo": "846",
+    "codigo": "7",
+    "descricao": "TRANSFERENCIA A ENTIDADE SEM FINS LUCRATIVOS"
+  },
+  {
+    "programa_codigo": "121",
+    "codigo": "70",
+    "descricao": "GESTAO DO PLANEJAMENTO E ORCAMENTO MUNICIPAL"
+  },
+  {
+    "programa_codigo": "999",
+    "codigo": "999",
+    "descricao": "RESERVA DE CONTINGENCIA E/OU RESERVA DE RPPS"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "256",
+    "descricao": "MANUTENCAO ELETRICA E ZELADORIA"
+  },
+  {
+    "programa_codigo": "451",
+    "codigo": "61",
+    "descricao": "REFORMAS DE CALCAMENTOS DE VIAS PUBLICAS"
+  },
+  {
+    "programa_codigo": "451",
+    "codigo": "62",
+    "descricao": "CONSTRUCAO E REVITALIZACAO DE ESPAÇOS PÚBLICOS/PRAÇAS"
+  },
+  {
+    "programa_codigo": "451",
+    "codigo": "89",
+    "descricao": "CONSTRUÇÃO, REFORMA, AMPLIAÇÃO E MANUTENÇÃO DA RODOVIARIA"
+  },
+  {
+    "programa_codigo": "452",
+    "codigo": "168",
+    "descricao": "AMPLIAÇÃO, ADEQUAÇÃO, CONSTRUÇÃO E REFORMA DE EQUIPAMENTOS PÚBLICOS."
+  },
+  {
+    "programa_codigo": "452",
+    "codigo": "72",
+    "descricao": "ADMINISTRACAO DA SECRETARIA"
+  },
+  {
+    "programa_codigo": "452",
+    "codigo": "94",
+    "descricao": "ADMINISTRACAO DA UNIDADE - VARGEM ALEGRE"
+  },
+  {
+    "programa_codigo": "452",
+    "codigo": "99",
+    "descricao": "ADMINISTRACAO DA UNIDADE - PACAS"
+  },
+  {
+    "programa_codigo": "452",
+    "codigo": "112",
+    "descricao": "MANUTENCAO DO CEMITERIO MUNICIPAL"
+  },
+  {
+    "programa_codigo": "452",
+    "codigo": "73",
+    "descricao": "MANUTENCAO DAS VIAS PUBLICAS"
+  },
+  {
+    "programa_codigo": "452",
+    "codigo": "74",
+    "descricao": "MANUTENCAO DA LIMPEZA URBANA"
+  },
+  {
+    "programa_codigo": "452",
+    "codigo": "75",
+    "descricao": "MANUTENCAO DA ILUMINACAO PUBLICA"
+  },
+  {
+    "programa_codigo": "391",
+    "codigo": "164",
+    "descricao": "MUSEU"
+  },
+  {
+    "programa_codigo": "391",
+    "codigo": "238",
+    "descricao": "PRAÇA DA BÍBLIA"
+  },
+  {
+    "programa_codigo": "391",
+    "codigo": "239",
+    "descricao": "REFORMA/RESTAURAÇÃO DE IGREJAS E GRUTAS"
+  },
+  {
+    "programa_codigo": "391",
+    "codigo": "241",
+    "descricao": "PRAÇA BORGES - SEDE GONGADO"
+  },
+  {
+    "programa_codigo": "391",
+    "codigo": "242",
+    "descricao": "OBRAS E REFORMA SEDE CONGADO FERNANDES"
+  },
+  {
+    "programa_codigo": "391",
+    "codigo": "247",
+    "descricao": "MANUTENCAO E CONSERVACAO DO PATRIMONIO HISTORICO"
+  },
+  {
+    "programa_codigo": "391",
+    "codigo": "248",
+    "descricao": "PROM E DIFUSAO PATRIMONIO CULTURAL MATERIAL E IMAT"
+  },
+  {
+    "programa_codigo": "391",
+    "codigo": "250",
+    "descricao": "MANUTENCAO DA CASA PARA TODOS"
+  },
+  {
+    "programa_codigo": "392",
+    "codigo": "192",
+    "descricao": "APOIO AO SETOR DE CULTURA 'LEI ALDIR BLANC'"
+  },
+  {
+    "programa_codigo": "846",
+    "codigo": "21",
+    "descricao": "APOIO A PROJETOS CULTURAIS"
+  },
+  {
+    "programa_codigo": "392",
+    "codigo": "88",
+    "descricao": "REFORMA DO PREDIO DO CENTRO CULTURAL"
+  },
+  {
+    "programa_codigo": "392",
+    "codigo": "78",
+    "descricao": "MANUTENCAO DAS ATIVIDADES DA SECRETARIA"
+  },
+  {
+    "programa_codigo": "392",
+    "codigo": "80",
+    "descricao": "FESTAS POPULARES E RELIGIOSAS"
+  },
+  {
+    "programa_codigo": "392",
+    "codigo": "124",
+    "descricao": "MANUTENCAO DO CENTRO CULTURAL"
+  },
+  {
+    "programa_codigo": "392",
+    "codigo": "243",
+    "descricao": "DIFUSAO CULTURAL"
+  },
+  {
+    "programa_codigo": "392",
+    "codigo": "244",
+    "descricao": "FORMAÇÃO ARTISTICA E CULTURAL"
+  },
+  {
+    "programa_codigo": "695",
+    "codigo": "240",
+    "descricao": "CIRCUITO TURISTICO"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "203",
+    "descricao": "AQUISICAO DE EQUIPAMENTO E MATERIAL PERMANENTE"
+  },
+  {
+    "programa_codigo": "691",
+    "codigo": "251",
+    "descricao": "EMPREENDIMENTOS PRODUTIVOS"
+  },
+  {
+    "programa_codigo": "691",
+    "codigo": "252",
+    "descricao": "APOIO A ATIVIDADES EMPRESARIAIS"
+  },
+  {
+    "programa_codigo": "333",
+    "codigo": "303",
+    "descricao": "QUALIFICAÇÃO, TREINAMENTOS E CAPACITAÇÃO"
+  },
+  {
+    "programa_codigo": "695",
+    "codigo": "94",
+    "descricao": "IMPLANTACAO ORLA TURISTICA PETI"
+  },
+  {
+    "programa_codigo": "695",
+    "codigo": "253",
+    "descricao": "APOIO A ECONOMIA CRIATIVA, CULTURA E TURISMO"
+  },
+  {
+    "programa_codigo": "451",
+    "codigo": "120",
+    "descricao": "EXPANSAO OU MELHORIA DA REDE DE ELETRIFICAÇÃO URBANA E RURAL"
+  },
+  {
+    "programa_codigo": "451",
+    "codigo": "201",
+    "descricao": "CENTRO COMERCIAL 381"
+  },
+  {
+    "programa_codigo": "451",
+    "codigo": "202",
+    "descricao": "IMPLANTAÇÃO DO ARRANJO PRODUTIVO DE PEQUENAS INDÚSTRIAS"
+  },
+  {
+    "programa_codigo": "451",
+    "codigo": "204",
+    "descricao": "INFRAESTRUTURA PARA ATIVIDADES EMPRESARIAIS"
+  },
+  {
+    "programa_codigo": "608",
+    "codigo": "254",
+    "descricao": "APOIO AO DESENVOLVIMENTO AGROPECUÁRIO"
+  },
+  {
+    "programa_codigo": "608",
+    "codigo": "245",
+    "descricao": "INCENTIVO AO DESENVOLVIMENTO AGROPECUÁRIO"
+  },
+  {
+    "programa_codigo": "846",
+    "codigo": "15",
+    "descricao": "CRESCER SEM JUROS"
+  },
+  {
+    "programa_codigo": "846",
+    "codigo": "16",
+    "descricao": "FOMENTO À TECNOLOGIA E INOVAÇÃO"
+  },
+  {
+    "programa_codigo": "846",
+    "codigo": "19",
+    "descricao": "PROGRAMA BOLSA TRABALHO"
+  },
+  {
+    "programa_codigo": "846",
+    "codigo": "20",
+    "descricao": "PROGRAMA FUNDO DE EQUALIZAÇÃO, PROSPERA +"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "87",
+    "descricao": "MANUTENCAO DA SECRETARIA"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "91",
+    "descricao": "MANUTENCAO DA CONTROLADORIA"
+  },
+  {
+    "programa_codigo": "131",
+    "codigo": "97",
+    "descricao": "MANUTENCAO DA OUVIDORIA"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "96",
+    "descricao": "MANUTENCAO DE PROJETOS"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "138",
+    "descricao": "CIENCIA, TECNOLOGIA E INOVAÇÃO"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "239",
+    "descricao": "AÇÕES DE INTELIGÊNCIA DE SEGURANÇA PUBLICA"
+  },
+  {
+    "programa_codigo": "241",
+    "codigo": "27",
+    "descricao": "AQUISIÇÃO E REFORMAS DO CENTRO DIA PARA IDOSO."
+  },
+  {
+    "programa_codigo": "241",
+    "codigo": "86",
+    "descricao": "Operacionalização da Casa Dia Para o Idoso"
+  },
+  {
+    "programa_codigo": "244",
+    "codigo": "162",
+    "descricao": "REFORMA DO IMÓVEL PARA ABEVIT."
+  },
+  {
+    "programa_codigo": "244",
+    "codigo": "201",
+    "descricao": "MANUTENÇAO DO FUNDO DO IDOSO"
+  },
+  {
+    "programa_codigo": "846",
+    "codigo": "49",
+    "descricao": "SUBVENCOES A ENTIDADES"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "194",
+    "descricao": "AQUISICAO DE ITENS DA AGRICULTURA FAMILIAR"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "301",
+    "descricao": "ADMINISTRAÇÃO GAB"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "225",
+    "descricao": "ADMINISTRACAO SEGURANCA DO TRABALHO"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "302",
+    "descricao": "ADMINISTRAÇÃO DE RECURSOS HUMANOS"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "300",
+    "descricao": "ADMINISTRAÇÃO DA SEMTRANSP"
+  },
+  {
+    "programa_codigo": "453",
+    "codigo": "122",
+    "descricao": "MANUTENCAO DO TRANSPORTE PUBLICO"
+  },
+  {
+    "programa_codigo": "453",
+    "codigo": "188",
+    "descricao": "GESTÃO DE TRANSITO"
+  },
+  {
+    "programa_codigo": "242",
+    "codigo": "111",
+    "descricao": "MANUTENÇÃO E FUNCIONAMENTO DO CMPD"
+  },
+  {
+    "programa_codigo": "242",
+    "codigo": "113",
+    "descricao": "ATENDIMENTO A PESSOA COM DEFICIENCIA"
+  },
+  {
+    "programa_codigo": "846",
+    "codigo": "17",
+    "descricao": "TRANSFERENCIA A ENTIDADE SEM FINS LUCRATIVOS"
+  },
+  {
+    "programa_codigo": "122",
+    "codigo": "260",
+    "descricao": "ADMINISTRAÇÃO DO SAAESGRA"
+  },
+  {
+    "programa_codigo": "511",
+    "codigo": "90",
+    "descricao": "CONSTRUÇÃO DE MINI ETE'S RURAIS"
+  },
+  {
+    "programa_codigo": "511",
+    "codigo": "250",
+    "descricao": "CONSTRUÇÃO DE MINI ETA'S RURAIS"
+  },
+  {
+    "programa_codigo": "512",
+    "codigo": "103",
+    "descricao": "CONST.REF. E AMPLIACAO DA ESTAÇÃO DE TRATAMENTO DE ESGOTO"
+  },
+  {
+    "programa_codigo": "512",
+    "codigo": "147",
+    "descricao": "CONSTRUÇÃO DE REDE DE ÁGUA"
+  },
+  {
+    "programa_codigo": "512",
+    "codigo": "148",
+    "descricao": "CONSTRUÇÃO DE REDE DE ESGOTO"
+  },
+  {
+    "programa_codigo": "512",
+    "codigo": "149",
+    "descricao": "CONST.REF. E AMPLIAÇÃO DE PRÉDIOS PRÓPRIOS-DAE"
+  },
+  {
+    "programa_codigo": "512",
+    "codigo": "249",
+    "descricao": "CONSTRUÇÃO DE NOVOS RESERVATÓRIOS"
+  },
+  {
+    "programa_codigo": "512",
+    "codigo": "161",
+    "descricao": "MANUTENÇÃO, COLETA E TRATAMENTO DE ESGOTOS"
+  },
+  {
+    "programa_codigo": "512",
+    "codigo": "162",
+    "descricao": "MANUTENÇÃO - CAPTAÇÃO, TRATAMENTO E DISTRIBUIÇÃO DE ÁGUA"
+  },
+  {
+    "programa_codigo": "512",
+    "codigo": "163",
+    "descricao": "MANUTENCAO DE VIAS PUBLICAS"
+  },
+  {
+    "programa_codigo": "333",
+    "codigo": "314",
+    "descricao": "ALIANÇA ESTRATÉGICA IFMG"
+  }
+]

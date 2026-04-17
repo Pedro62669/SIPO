@@ -1,0 +1,152 @@
+[
+  {
+    "unidade_codigo": "1",
+    "codigo": "1",
+    "descricao": "GABINETE DO PRESIDENTE"
+  },
+  {
+    "unidade_codigo": "2",
+    "codigo": "1",
+    "descricao": "DEPTO DE PESSOAL"
+  },
+  {
+    "unidade_codigo": "2",
+    "codigo": "2",
+    "descricao": "DEPTO ADMINISTRATIVO/CONTABIL"
+  },
+  {
+    "unidade_codigo": "2",
+    "codigo": "3",
+    "descricao": "CAC - CENTRO DE ATENÇÃO AO CIDADÃO"
+  },
+  {
+    "unidade_codigo": "2",
+    "codigo": "4",
+    "descricao": "PROCON"
+  },
+  {
+    "unidade_codigo": "2",
+    "codigo": "5",
+    "descricao": "ESCOLA DO LEGISLATIVO"
+  },
+  {
+    "unidade_codigo": "2",
+    "codigo": "6",
+    "descricao": "PROCURADORIA"
+  },
+  {
+    "unidade_codigo": "2",
+    "codigo": "7",
+    "descricao": "CPD - CENTRO DE PROCESSAMENTO DE DADOS"
+  },
+  {
+    "unidade_codigo": "2",
+    "codigo": "8",
+    "descricao": "DEPTO DE ZELADORIA"
+  },
+  {
+    "unidade_codigo": "2",
+    "codigo": "9",
+    "descricao": "DEPTO DE COMUNICAÇÃO"
+  },
+  {
+    "unidade_codigo": "1",
+    "codigo": "2",
+    "descricao": "FUNDO MUN PARA A PROTEÇÃO E DEFESA CIVIL"
+  },
+  {
+    "unidade_codigo": "1",
+    "codigo": "3",
+    "descricao": "SECRETARIA MUNICIPAL DE GOVERNO"
+  },
+  {
+    "unidade_codigo": "1",
+    "codigo": "4",
+    "descricao": "GUARDA CIVIL MUNICIPAL"
+  },
+  {
+    "unidade_codigo": "6",
+    "codigo": "1",
+    "descricao": "FUNDO MUNICIPAL DE SAUDE"
+  },
+  {
+    "unidade_codigo": "7",
+    "codigo": "1",
+    "descricao": "FUNDEB"
+  },
+  {
+    "unidade_codigo": "7",
+    "codigo": "2",
+    "descricao": "SECRETARIA MUNICIPAL DE EDUCACAO"
+  },
+  {
+    "unidade_codigo": "8",
+    "codigo": "1",
+    "descricao": "FUNDO MUNICIPAL DE ESPORTE E LAZER"
+  },
+  {
+    "unidade_codigo": "8",
+    "codigo": "2",
+    "descricao": "SECRETARIA MUN DE ESPORTES, LAZER E TURI"
+  },
+  {
+    "unidade_codigo": "9",
+    "codigo": "1",
+    "descricao": "FUNDO MUNICIPAL DE HABITACAO"
+  },
+  {
+    "unidade_codigo": "9",
+    "codigo": "3",
+    "descricao": "SEC MUN DE TRABALHO E DESENVOLVIMENTO SO"
+  },
+  {
+    "unidade_codigo": "10",
+    "codigo": "1",
+    "descricao": "FUNDO ESPECIAL PARA GESTAO AMBIENTAL"
+  },
+  {
+    "unidade_codigo": "10",
+    "codigo": "3",
+    "descricao": "SECRETARIA MUNICIPAL DE MEIO AMBIENTE"
+  },
+  {
+    "unidade_codigo": "15",
+    "codigo": "1",
+    "descricao": "SECRETARIA MUNICIPAL DE SERVICOS URBANOS"
+  },
+  {
+    "unidade_codigo": "16",
+    "codigo": "1",
+    "descricao": "FUNDO MUNI DE PRESERVACAO DO PATRIMONIO"
+  },
+  {
+    "unidade_codigo": "16",
+    "codigo": "2",
+    "descricao": "FUNDO MUNICIPAL DE CULTURA"
+  },
+  {
+    "unidade_codigo": "16",
+    "codigo": "3",
+    "descricao": "SECRETARIA MUNICIPAL DE CULTURA - SEMUC"
+  },
+  {
+    "unidade_codigo": "17",
+    "codigo": "1",
+    "descricao": "FUNDO MUNICIPAL DE DESENVOLVIMENTO ECONO"
+  },
+  {
+    "unidade_codigo": "17",
+    "codigo": "2",
+    "descricao": "SECRETARIA MUNICIPAL DE DESENVOLVIMENTO"
+  },
+  {
+    "unidade_codigo": "18",
+    "codigo": "1",
+    "descricao": "CONTROLADORIA GERAL MUNICIPAL - COGEM"
+  },
+  {
+    "unidade_codigo": "18",
+    "codigo": "2",
+    "descricao": "OUVIDORIA MUNICIPAL"
+  }
+]

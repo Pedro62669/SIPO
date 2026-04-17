@@ -1,0 +1,182 @@
+[
+  {
+    "codigo": "31",
+    "descricao": "Ação Legislativa"
+  },
+  {
+    "codigo": "61",
+    "descricao": "Ação Judiciária"
+  },
+  {
+    "codigo": "92",
+    "descricao": "Representação Judicial e Extrajudicial"
+  },
+  {
+    "codigo": "121",
+    "descricao": "Planejamento e Orçamento"
+  },
+  {
+    "codigo": "122",
+    "descricao": "Administração Geral"
+  },
+  {
+    "codigo": "123",
+    "descricao": "Administração Financeira"
+  },
+  {
+    "codigo": "125",
+    "descricao": "Normatização e Fiscalização"
+  },
+  {
+    "codigo": "129",
+    "descricao": "Administração de Receitas"
+  },
+  {
+    "codigo": "131",
+    "descricao": "Comunicação Social"
+  },
+  {
+    "codigo": "181",
+    "descricao": "Policiamento"
+  },
+  {
+    "codigo": "182",
+    "descricao": "Defesa Civil"
+  },
+  {
+    "codigo": "241",
+    "descricao": "Assistência à Pessoa Idosa"
+  },
+  {
+    "codigo": "242",
+    "descricao": "Assistência à Pessoa com Deficiência"
+  },
+  {
+    "codigo": "243",
+    "descricao": "Assistência à Criança e ao Adolescente"
+  },
+  {
+    "codigo": "244",
+    "descricao": "Assistência Comunitária"
+  },
+  {
+    "codigo": "245",
+    "descricao": "Serviços Socioassistenciais"
+  },
+  {
+    "codigo": "301",
+    "descricao": "Atenção Básica"
+  },
+  {
+    "codigo": "302",
+    "descricao": "Assistência Hospitalar e Ambulatorial"
+  },
+  {
+    "codigo": "303",
+    "descricao": "Suporte Profilático e Terapêutico"
+  },
+  {
+    "codigo": "304",
+    "descricao": "Vigilância Sanitária"
+  },
+  {
+    "codigo": "305",
+    "descricao": "Vigilância Epidemiológica"
+  },
+  {
+    "codigo": "306",
+    "descricao": "Alimentação e Nutrição"
+  },
+  {
+    "codigo": "333",
+    "descricao": "Empregabilidade"
+  },
+  {
+    "codigo": "361",
+    "descricao": "Ensino Fundamental"
+  },
+  {
+    "codigo": "362",
+    "descricao": "Ensino Médio"
+  },
+  {
+    "codigo": "363",
+    "descricao": "Ensino Profissional"
+  },
+  {
+    "codigo": "365",
+    "descricao": "Educação Infantil"
+  },
+  {
+    "codigo": "391",
+    "descricao": "Patrimônio Histórico, Artístico e Arqueológico"
+  },
+  {
+    "codigo": "392",
+    "descricao": "Difusão Cultural"
+  },
+  {
+    "codigo": "451",
+    "descricao": "Infra-estrutura Urbana"
+  },
+  {
+    "codigo": "452",
+    "descricao": "Serviços Urbanos"
+  },
+  {
+    "codigo": "453",
+    "descricao": "Transportes Coletivos Urbanos"
+  },
+  {
+    "codigo": "511",
+    "descricao": "Saneamento Básico Rural"
+  },
+  {
+    "codigo": "512",
+    "descricao": "Saneamento Básico Urbano"
+  },
+  {
+    "codigo": "541",
+    "descricao": "Preservação e Conservação Ambiental"
+  },
+  {
+    "codigo": "542",
+    "descricao": "Controle Ambiental"
+  },
+  {
+    "codigo": "543",
+    "descricao": "Recuperação de Áreas Degradadas"
+  },
+  {
+    "codigo": "605",
+    "descricao": "Abastecimento"
+  },
+  {
+    "codigo": "608",
+    "descricao": "Promoção da Produção Agropecuária"
+  },
+  {
+    "codigo": "691",
+    "descricao": "Promoção Comercial"
+  },
+  {
+    "codigo": "695",
+    "descricao": "Turismo"
+  },
+  {
+    "codigo": "782",
+    "descricao": "Transporte Rodoviário"
+  },
+  {
+    "codigo": "813",
+    "descricao": "Lazer"
+  },
+  {
+    "codigo": "846",
+    "descricao": "Outros Encargos Especiais"
+  },
+  {
+    "codigo": "999",
+    "descricao": "Reserva de Contingência"
+  }
+]
