@@ -5,28 +5,34 @@ todos:
   - id: setup-projeto
     content: "Fase 1 - Setup: Criar projeto Laravel 11 com Livewire 3, Tailwind CSS, Breeze, configurar MySQL e pacotes essenciais"
     status: completed
+    
   - id: banco-migrations
     content: "Fase 2 - Banco de Dados: Criar todas as migrations, models, factories e seeders com dados iniciais (funcoes, subfuncoes, naturezas, fontes)"
     status: completed
+    
   - id: auth-usuarios
     content: "Fase 3 - Auth e Usuarios: Implementar login, roles (admin/usuario), middleware de autorizacao, CRUD de usuarios pelo admin"
     status: completed
+    
   - id: importacao
     content: "Fase 4 - Importacao: Implementar importacao de Receita e Despesa via Excel com validacao e parametrizacoes (substituicao de fontes, eliminacao de duplicatas)"
     status: completed
+    
   - id: parametrizacao
     content: "Fase 5 - Parametrizacao: Telas de configuracao de fontes, naturezas, valores por secretaria, prazos, restricoes e liberacao para preenchimento"
     status: completed
+    
   - id: preenchimento-loa
     content: "Fase 6 - Preenchimento LOA: Interface de preenchimento com dropdowns filtrados, validacoes de negocio, gerenciamento de metas/acoes, obras e envio"
     status: completed
+    
   - id: cortes-consolidacao
     content: "Fase 7 - Cortes e Consolidacao: Modulo de cortes pelo admin com comparativo de valores liberados vs preenchidos"
     status: completed
+    
   - id: relatorios
     content: "Fase 8 - Relatorios: Relatorios gerenciais (evolucao, diferencas, impressao) para admin e usuario, com exportacao PDF"
     status: completed
-isProject: false
 ---
 
 # Arquitetura Inicial - SIPO
