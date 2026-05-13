@@ -299,7 +299,3 @@ Na Fase 2, os seeders devem importar diretamente dos arquivos Excel em `Document
 - **FonteRecursoSeeder**: 80+ fontes com descricao e recurso vinculado (do `informacoes.xlsx`)
 - **RegraFonteSeeder**: 7 regras de substituicao de fonte (2xxx -> 1xxx)
 - **FonteUnidadeRestricaoSeeder**: restricoes de fontes por secretaria
-
-## Proximos Passos para Implementacao
-
-A implementacao sera feita em fases incrementais, comecando pela base e avancando para os modulos de negocio.
