@@ -2,6 +2,7 @@
 name: Arquitetura SIPO
 overview: Arquitetura completa do SIPO (Sistema Integrado de Planejamento Orcamentario) usando Laravel 11 + Livewire 3 + Tailwind CSS + MySQL, cobrindo gestao de usuarios, importacao de receitas/despesas, parametrizacao, preenchimento da LOA, cortes e relatorios.
 todos:
+content:
   - id: setup-projeto
     content: "Fase 1 - Setup: Criar projeto Laravel 11 com Livewire 3, Tailwind CSS, Breeze, configurar MySQL e pacotes essenciais"
     status: completed
