@@ -9,7 +9,7 @@
 - **PDF/Relatorios**: DomPDF ou Snappy
 - **Autenticacao**: Laravel Breeze (simplificado) ou Jetstream
 - **Auditoria**: owen-it/laravel-auditing
-- **Servidor**: Apache (ja disponivel em /var/www/html)
+- **Servidor**: Apache
 
 ---
 
