@@ -13,7 +13,7 @@ new class extends Component
     public string $password_confirmation = '';
 
     /**
-     * Update the password for the currently authenticated user.
+     * Atualiza a senha do usuário autenticado.
      */
     public function updatePassword(): void
     {

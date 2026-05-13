@@ -2,16 +2,21 @@
 
 namespace App\Services;
 
+use App\Enums\ParametrizacaoClassificacao;
 use App\Models\Acao;
 use App\Models\DespesaImportada;
 use App\Models\FonteRecurso;
 use App\Models\Natureza;
 use App\Models\Orcamento;
+use App\Models\ParametrizacaoSecretaria;
 use App\Models\Programa;
 use App\Models\RegraFonte;
 use App\Models\Subunidade;
 use App\Models\Unidade;
+use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Str;
 
 class ImportacaoService
 {
@@ -129,6 +134,7 @@ class ImportacaoService
                     'liquidado' => $row['liquidado'],
                     'credito_suplementar' => $row['credito_suplementar'] ?? 0,
                     'credito_especial' => $row['credito_especial'] ?? 0,
+                    'total_creditos_adicionais' => $row['total_creditos_adicionais'] ?? 0,
                     'reducao_creditos' => $row['reducao_creditos'] ?? 0,
                     'dotacao_atualizada' => $row['dotacao_atualizada'] ?? 0,
                     'pago' => $row['pago'] ?? 0,
@@ -147,6 +153,65 @@ class ImportacaoService
         return [
             'updated' => $updated,
             'not_found' => $notFound,
+            'errors' => $errors,
+        ];
+    }
+
+    /**
+     * @return array{created: int, errors: list<string>}
+     */
+    public function processarParametrizacoesHistoricas(int $orcamentoId, Collection $rows): array
+    {
+        Orcamento::findOrFail($orcamentoId);
+
+        $created = 0;
+        $errors = [];
+        $payload = [];
+
+        foreach ($rows as $index => $row) {
+            try {
+                $unidade = $this->resolverUnidade((string) Arr::get($row, 'unidade_raw', ''));
+                if (! $unidade) {
+                    throw new \RuntimeException('Unidade não encontrada.');
+                }
+
+                $subunidade = $this->resolverSubunidade(
+                    $unidade->id,
+                    (string) Arr::get($row, 'subunidade_raw', '')
+                );
+
+                $fonte = $this->resolverFonte((string) Arr::get($row, 'fonte_raw', ''));
+                if (! $fonte) {
+                    throw new \RuntimeException('Fonte de recurso não encontrada.');
+                }
+
+                $payload[] = [
+                    'orcamento_id' => $orcamentoId,
+                    'unidade_id' => $unidade->id,
+                    'subunidade_id' => $subunidade?->id,
+                    'fonte_id' => $fonte->id,
+                    'classificacao' => ParametrizacaoClassificacao::tryFrom((string) Arr::get($row, 'classificacao'))
+                        ?->value ?? ParametrizacaoClassificacao::Geral->value,
+                    'percentual_anterior' => Arr::get($row, 'percentual_anterior'),
+                    'valor_liberado' => (int) Arr::get($row, 'valor_liberado', 0),
+                    'created_at' => now(),
+                    'updated_at' => now(),
+                ];
+                $created++;
+            } catch (\Throwable $e) {
+                $errors[] = 'Linha '.($index + 2).': '.$e->getMessage();
+            }
+        }
+
+        if ($payload !== []) {
+            DB::transaction(function () use ($orcamentoId, $payload) {
+                ParametrizacaoSecretaria::where('orcamento_id', $orcamentoId)->delete();
+                ParametrizacaoSecretaria::insert($payload);
+            });
+        }
+
+        return [
+            'created' => $created,
             'errors' => $errors,
         ];
     }
@@ -179,5 +244,76 @@ class ImportacaoService
                 ['fonte_destino' => $destino]
             );
         }
+    }
+
+    private function resolverUnidade(string $raw): ?Unidade
+    {
+        $raw = trim($raw);
+        if ($raw === '') {
+            return null;
+        }
+
+        if (preg_match('/^\D*(\d+)/', $raw, $matches)) {
+            $codigo = (int) $matches[1];
+            $unidade = Unidade::where('codigo', $codigo)->first();
+            if ($unidade) {
+                return $unidade;
+            }
+        }
+
+        $descricao = Str::of($raw)->ascii()->lower()->squish()->toString();
+
+        return Unidade::query()
+            ->get()
+            ->first(function (Unidade $unidade) use ($descricao) {
+                $atual = Str::of((string) $unidade->descricao)->ascii()->lower()->squish()->toString();
+                return $atual === $descricao;
+            });
+    }
+
+    private function resolverSubunidade(int $unidadeId, string $raw): ?Subunidade
+    {
+        $raw = trim($raw);
+        if ($raw === '') {
+            return null;
+        }
+
+        if (preg_match('/^\D*(\d+)/', $raw, $matches)) {
+            $codigo = (int) $matches[1];
+            $sub = Subunidade::where('unidade_id', $unidadeId)->where('codigo', $codigo)->first();
+            if ($sub) {
+                return $sub;
+            }
+        }
+
+        $descricao = Str::of($raw)->ascii()->lower()->squish()->toString();
+
+        return Subunidade::query()
+            ->where('unidade_id', $unidadeId)
+            ->get()
+            ->first(function (Subunidade $subunidade) use ($descricao) {
+                $atual = Str::of((string) $subunidade->descricao)->ascii()->lower()->squish()->toString();
+                return $atual === $descricao;
+            });
+    }
+
+    private function resolverFonte(string $raw): ?FonteRecurso
+    {
+        $raw = trim($raw);
+        if ($raw === '') {
+            return null;
+        }
+
+        preg_match('/(\d{3,10})/', $raw, $matches);
+        $codigo = trim((string) ($matches[1] ?? $raw));
+
+        if ($codigo === '') {
+            return null;
+        }
+
+        return FonteRecurso::firstOrCreate(
+            ['codigo' => $codigo],
+            ['descricao' => 'Fonte '.$codigo]
+        );
     }
 }

@@ -5,7 +5,7 @@
 
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <livewire:admin.parametrizacao :orcamento-id="request()->route('orcamento')" />
+            <livewire:admin.parametrizacao :orcamento-id="$orcamentoId" />
         </div>
     </div>
 </x-app-layout>

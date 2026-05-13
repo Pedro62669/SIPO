@@ -10,7 +10,7 @@ new #[Layout('layouts.guest')] class extends Component
     public LoginForm $form;
 
     /**
-     * Handle an incoming authentication request.
+     * Processa uma requisição de autenticação recebida.
      */
     public function login(): void
     {
@@ -25,18 +25,18 @@ new #[Layout('layouts.guest')] class extends Component
 }; ?>
 
 <div>
-    <!-- Session Status -->
+    <!-- Status da sessão -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
 
     <form wire:submit="login">
-        <!-- Email Address -->
+        <!-- Endereço de e-mail -->
         <div>
             <x-input-label for="email" :value="__('Email')" />
             <x-text-input wire:model="form.email" id="email" class="block mt-1 w-full" type="email" name="email" required autofocus autocomplete="username" />
             <x-input-error :messages="$errors->get('form.email')" class="mt-2" />
         </div>
 
-        <!-- Password -->
+        <!-- Senha -->
         <div class="mt-4">
             <x-input-label for="password" :value="__('Password')" />
 
@@ -48,7 +48,7 @@ new #[Layout('layouts.guest')] class extends Component
             <x-input-error :messages="$errors->get('form.password')" class="mt-2" />
         </div>
 
-        <!-- Remember Me -->
+        <!-- Lembrar acesso -->
         <div class="block mt-4">
             <label for="remember" class="inline-flex items-center">
                 <input wire:model="form.remember" id="remember" type="checkbox" class="rounded border-gray-300 text-indigo-600 shadow-sm focus:ring-indigo-500" name="remember">

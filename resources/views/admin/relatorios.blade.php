@@ -4,8 +4,23 @@
             ->withCount(['receitas', 'despesasImportadas', 'loaPreenchimentos'])
             ->withSum('receitas', 'valor')
             ->withSum('loaPreenchimentos', 'valor')
+            ->withSum('despesasImportadas', 'valor_inicial')
+            ->withSum('despesasImportadas', 'dotacao_atualizada')
             ->latest('created_at')
-            ->get();
+            ->get()
+            ->map(function ($orcamento) {
+                $valorHistorico = (int) (
+                    $orcamento->despesas_importadas_sum_dotacao_atualizada
+                    ?: $orcamento->despesas_importadas_sum_valor_inicial
+                    ?: 0
+                );
+
+                $orcamento->valor_loa_relatorio = $orcamento->is_historico
+                    ? $valorHistorico
+                    : (int) ($orcamento->loa_preenchimentos_sum_valor ?? 0);
+
+                return $orcamento;
+            });
 
         $totalOrcamentos = $orcamentos->count();
         $totalReceitas = (int) $orcamentos->sum(fn ($orcamento) => (int) ($orcamento->receitas_sum_valor ?? 0));
@@ -76,10 +91,12 @@
                                         <td class="px-4 py-3 text-right text-gray-700">{{ $orcamento->receitas_count }}</td>
                                         <td class="px-4 py-3 text-right text-gray-700">{{ $orcamento->despesas_importadas_count }}</td>
                                         <td class="px-4 py-3 text-right text-gray-700">{{ $orcamento->loa_preenchimentos_count }}</td>
-                                        <td class="px-4 py-3 text-right text-gray-700">R$ {{ number_format((int) ($orcamento->loa_preenchimentos_sum_valor ?? 0), 2, ',', '.') }}</td>
+                                        <td class="px-4 py-3 text-right text-gray-700">
+                                            R$ {{ number_format($orcamento->is_historico ? $orcamento->valor_loa_relatorio / 100 : $orcamento->valor_loa_relatorio, 2, ',', '.') }}
+                                        </td>
                                         <td class="px-4 py-3 text-right">
                                             <div class="inline-flex flex-wrap items-center justify-end gap-x-3 gap-y-1">
-                                                <a href="{{ route('admin.orcamento.cortes', ['orcamento' => $orcamento->id]) }}" class="text-indigo-600 hover:text-indigo-800 font-medium">
+                                                <a href="{{ $orcamento->is_historico ? route('admin.loa-historica.consultar') : route('admin.orcamento.cortes', ['orcamento' => $orcamento->id]) }}" class="text-indigo-600 hover:text-indigo-800 font-medium">
                                                     Consultar
                                                 </a>
                                                 <livewire:admin.botao-excluir-orcamento

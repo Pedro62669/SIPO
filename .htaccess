@@ -1,13 +1,21 @@
 <IfModule mod_rewrite.c>
+    Options -Indexes
     RewriteEngine On
 
-    # Serve built frontend assets from Laravel public directory.
+    # Bloqueia acesso direto aos internos do Laravel quando o document root
+    # do cPanel não puder apontar diretamente para /public.
+    RewriteRule (^|/)\.(?!well-known/) - [F,L]
+    RewriteRule ^(app|bootstrap|config|database|lang|node_modules|resources|routes|storage|tests|vendor)(/|$) - [F,L]
+    RewriteRule ^(artisan|composer\.(json|lock)|package(-lock)?\.json|phpunit\.xml|README\.md|vite\.config\.js|tailwind\.config\.js|postcss\.config\.js)$ - [F,L]
+    RewriteRule ^(Documentos|Documentos%202025|Documentos\ 2025)(/|$) - [F,L]
+
+    # Serve os assets compilados do frontend a partir do diretório public do Laravel.
     RewriteRule ^build/(.*)$ public/build/$1 [L]
 
-    # Serve common public files from Laravel public directory.
+    # Serve arquivos públicos comuns a partir do diretório public do Laravel.
     RewriteRule ^(favicon\.ico|robots\.txt)$ public/$1 [L]
 
-    # Send app routes through /SIPO/index.php (subfolder-safe).
+    # Envia as rotas da aplicação para o front controller do Laravel.
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^ index.php [L]

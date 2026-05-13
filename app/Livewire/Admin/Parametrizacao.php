@@ -23,12 +23,12 @@ class Parametrizacao extends Component
 
     public string $activeTab = 'fontes';
 
-    // Regras Fonte
+    // Regras de fonte
     public string $fonteOrigem = '';
 
     public string $fonteDestino = '';
 
-    // Restricao Fonte
+    // Restrição de fonte
     public string $restricaoFonteInicio = '';
 
     public string $restricaoFonteFim = '';
@@ -37,7 +37,7 @@ class Parametrizacao extends Component
 
     public ?int $restricaoSubunidadeId = null;
 
-    // Parametrizacao Secretaria
+    // Parametrização da secretaria
     public ?int $paramUnidadeId = null;
 
     public ?int $paramSubunidadeId = null;
@@ -57,6 +57,10 @@ class Parametrizacao extends Component
 
     public function mount(int $orcamentoId): void
     {
+        if (Orcamento::whereKey($orcamentoId)->where('is_historico', true)->exists()) {
+            abort(403, 'LOAs anteriores são somente para consulta.');
+        }
+
         $this->orcamentoId = $orcamentoId;
         $this->sincronizarFontesDisponiveis();
     }

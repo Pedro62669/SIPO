@@ -4,7 +4,7 @@ namespace App\Livewire\Usuario;
 
 use App\Models\DespesaImportada;
 use App\Models\Orcamento;
-use App\Models\Unidade;
+use App\Models\ParametrizacaoSecretaria;
 use Livewire\Component;
 use Livewire\WithPagination;
 
@@ -76,12 +76,37 @@ class ConsultarLoasHistoricas extends Component
             'SUM(saldo_dotacao) as total_saldo_dotacao'
         )->first();
 
+        $parametrizacoes = ParametrizacaoSecretaria::query()
+            ->with(['subunidade', 'fonte'])
+            ->when($this->orcamento_id, fn ($q) => $q->where('orcamento_id', $this->orcamento_id), fn ($q) => $q->whereRaw('1 = 0'))
+            ->where('unidade_id', $unidadeId)
+            ->orderBy('subunidade_id')
+            ->get();
+
+        $temParametrizacao = $parametrizacoes->isNotEmpty();
+        $totalLiberadoParametrizado = (int) $parametrizacoes->sum('valor_liberado');
+        $totalLiberado = $temParametrizacao
+            ? $totalLiberadoParametrizado
+            : (int) ($totais->total_dotacao_atualizada ?? 0);
+
+        $saldoDisponivel = (int) ($totais->total_saldo_dotacao
+            ?? (($totais->total_dotacao_atualizada ?? 0) - ($totais->total_empenhado ?? 0)));
+
+        $paramTotais = [
+            'total_liberado' => $totalLiberado,
+            'saldo_vs_empenhado' => $temParametrizacao
+                ? $totalLiberadoParametrizado - (int) ($totais->total_empenhado ?? 0)
+                : $saldoDisponivel,
+        ];
+
         $despesas = $query->orderBy('subunidade_id')->orderBy('acao_id')->paginate(50);
 
         return view('livewire.usuario.consultar-loas-historicas', [
             'orcamentosHistoricos' => $orcamentosHistoricos,
             'despesas' => $despesas,
             'totais' => $totais,
+            'parametrizacoes' => $parametrizacoes,
+            'paramTotais' => $paramTotais,
         ]);
     }
 }

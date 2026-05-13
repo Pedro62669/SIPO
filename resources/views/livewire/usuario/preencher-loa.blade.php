@@ -118,8 +118,25 @@
                                             <td class="px-3 py-2 text-gray-600">{{ $line->detalhamento ?? '—' }}</td>
                                             <td class="px-3 py-2 text-right font-medium text-gray-900">
                                                 @if ($editingLineId === $line->id)
-                                                    <input type="number" min="0" wire:model="editingValor"
-                                                        class="w-32 rounded-md border-gray-300 text-sm text-right">
+                                                    <input type="text" inputmode="numeric"
+                                                        x-data="{
+                                                            display: '',
+                                                            format(value) {
+                                                                const amount = Number(value || 0);
+                                                                return amount > 0 ? amount.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) : '';
+                                                            },
+                                                            update(value) {
+                                                                const digits = String(value).replace(/\D/g, '').slice(0, 12);
+                                                                const amount = digits ? parseInt(digits, 10) : 0;
+                                                                this.display = this.format(amount);
+                                                                $wire.set('editingValor', amount, false);
+                                                            },
+                                                        }"
+                                                        x-init="display = format($wire.editingValor)"
+                                                        x-model="display"
+                                                        x-on:input="update($event.target.value)"
+                                                        placeholder="R$ 0,00"
+                                                        class="w-36 rounded-md border-gray-300 text-sm text-right">
                                                 @else
                                                     R$ {{ number_format($line->valor, 0, ',', '.') }}
                                                 @endif
@@ -207,8 +224,25 @@
                                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 text-sm">
                         </div>
                         <div>
-                            <label class="block text-sm font-medium text-gray-700">Valor (R$, inteiro)</label>
-                            <input type="number" min="0" step="1" wire:model="valor"
+                            <label class="block text-sm font-medium text-gray-700">Valor (R$)</label>
+                            <input type="text" inputmode="numeric"
+                                x-data="{
+                                    display: '',
+                                    format(value) {
+                                        const amount = Number(value || 0);
+                                        return amount > 0 ? amount.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) : '';
+                                    },
+                                    update(value) {
+                                        const digits = String(value).replace(/\D/g, '').slice(0, 12);
+                                        const amount = digits ? parseInt(digits, 10) : 0;
+                                        this.display = this.format(amount);
+                                        $wire.set('valor', amount, false);
+                                    },
+                                }"
+                                x-init="display = format($wire.valor)"
+                                x-model="display"
+                                x-on:input="update($event.target.value)"
+                                placeholder="R$ 0,00"
                                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 text-sm">
                             @error('valor')
                                 <p class="mt-1 text-xs text-red-600">{{ $message }}</p>

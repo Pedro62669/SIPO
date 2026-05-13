@@ -100,7 +100,7 @@
                 </div>
             </div>
 
-            <!-- Summary Stats -->
+            <!-- Resumo estatístico -->
             <div class="mt-8 bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6">
                     <h3 class="text-lg font-medium text-gray-900 mb-4">Resumo do Sistema</h3>

@@ -4,6 +4,7 @@ namespace App\Livewire\Admin;
 
 use App\Models\DespesaImportada;
 use App\Models\Orcamento;
+use App\Models\ParametrizacaoSecretaria;
 use App\Models\Unidade;
 use Livewire\Component;
 use Livewire\WithPagination;
@@ -109,6 +110,40 @@ class ConsultarLoas extends Component
             'SUM(saldo_dotacao) as total_saldo_dotacao'
         )->first();
 
+        $paramQuery = ParametrizacaoSecretaria::query()
+            ->with(['unidade', 'subunidade', 'fonte']);
+
+        if ($this->orcamento_id) {
+            $paramQuery->where('orcamento_id', $this->orcamento_id);
+        } else {
+            $paramQuery->whereRaw('1 = 0');
+        }
+
+        if ($this->unidade_id) {
+            $paramQuery->where('unidade_id', $this->unidade_id);
+        }
+
+        $parametrizacoes = $paramQuery
+            ->orderBy('unidade_id')
+            ->orderBy('subunidade_id')
+            ->get();
+
+        $temParametrizacao = $parametrizacoes->isNotEmpty();
+        $totalLiberadoParametrizado = (int) $parametrizacoes->sum('valor_liberado');
+        $totalLiberado = $temParametrizacao
+            ? $totalLiberadoParametrizado
+            : (int) ($totais->total_dotacao_atualizada ?? 0);
+
+        $saldoDisponivel = (int) ($totais->total_saldo_dotacao
+            ?? (($totais->total_dotacao_atualizada ?? 0) - ($totais->total_empenhado ?? 0)));
+
+        $paramTotais = [
+            'total_liberado' => $totalLiberado,
+            'saldo_vs_empenhado' => $temParametrizacao
+                ? $totalLiberadoParametrizado - (int) ($totais->total_empenhado ?? 0)
+                : $saldoDisponivel,
+        ];
+
         $despesas = $query->orderBy('unidade_id')->orderBy('subunidade_id')->orderBy('acao_id')->paginate(50);
 
         return view('livewire.admin.consultar-loas', [
@@ -116,6 +151,8 @@ class ConsultarLoas extends Component
             'unidades' => $unidades,
             'despesas' => $despesas,
             'totais' => $totais,
+            'parametrizacoes' => $parametrizacoes,
+            'paramTotais' => $paramTotais,
         ]);
     }
 }

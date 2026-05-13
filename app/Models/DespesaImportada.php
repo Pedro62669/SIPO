@@ -26,6 +26,7 @@ class DespesaImportada extends Model implements AuditableContract
             'liquidado' => 'integer',
             'credito_suplementar' => 'integer',
             'credito_especial' => 'integer',
+            'total_creditos_adicionais' => 'integer',
             'reducao_creditos' => 'integer',
             'dotacao_atualizada' => 'integer',
             'pago' => 'integer',

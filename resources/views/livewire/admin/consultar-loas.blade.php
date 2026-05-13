@@ -98,6 +98,67 @@
             </div>
         @endif
 
+        <div class="mb-6">
+            <div class="flex items-center justify-between mb-3">
+                <h3 class="text-sm font-semibold text-gray-900">Parametrização importada</h3>
+                <span class="text-xs text-gray-500">{{ $parametrizacoes->count() }} registros</span>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+                <div class="bg-white border border-gray-200 rounded-lg p-4">
+                    <p class="text-xs text-gray-500 uppercase">Total liberado</p>
+                    <p class="text-lg font-bold text-blue-700">R$ {{ number_format(($paramTotais['total_liberado'] ?? 0) / 100, 2, ',', '.') }}</p>
+                </div>
+                <div class="bg-white border border-gray-200 rounded-lg p-4">
+                    <p class="text-xs text-gray-500 uppercase">Saldo vs. Empenhado</p>
+                    @php $saldoVsEmpenhado = $paramTotais['saldo_vs_empenhado'] ?? null; @endphp
+                    <p class="text-lg font-bold {{ $saldoVsEmpenhado >= 0 ? 'text-emerald-700' : 'text-red-600' }}">
+                        R$ {{ number_format($saldoVsEmpenhado / 100, 2, ',', '.') }}
+                    </p>
+                </div>
+            </div>
+
+            <div class="overflow-x-auto rounded-lg border border-gray-200">
+                <table class="min-w-full divide-y divide-gray-200 text-sm">
+                    <thead class="bg-gray-50">
+                        <tr>
+                            <th class="px-4 py-2 text-left font-medium text-gray-600">Unidade</th>
+                            <th class="px-4 py-2 text-left font-medium text-gray-600">Subunidade</th>
+                            <th class="px-4 py-2 text-left font-medium text-gray-600">Fonte</th>
+                            <th class="px-4 py-2 text-left font-medium text-gray-600">Classificação</th>
+                            <th class="px-4 py-2 text-right font-medium text-gray-600">% ant.</th>
+                            <th class="px-4 py-2 text-right font-medium text-gray-600">Valor liberado</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-100 bg-white">
+                        @forelse ($parametrizacoes as $p)
+                            <tr>
+                                <td class="px-4 py-2">{{ $p->unidade?->codigo }} — {{ $p->unidade?->descricao }}</td>
+                                <td class="px-4 py-2">{{ $p->subunidade ? $p->subunidade->codigo.' — '.$p->subunidade->descricao : '—' }}</td>
+                                <td class="px-4 py-2">{{ $p->fonte?->codigo }} — {{ $p->fonte?->descricao }}</td>
+                                <td class="px-4 py-2">
+                                    @switch($p->classificacao->value)
+                                        @case('geral') Geral @break
+                                        @case('terceirizacao') Terceirização @break
+                                        @case('custeio') Custeio @break
+                                        @case('pessoal') Pessoal @break
+                                        @case('investimento') Investimento @break
+                                        @default {{ $p->classificacao->value }}
+                                    @endswitch
+                                </td>
+                                <td class="px-4 py-2 text-right">{{ $p->percentual_anterior !== null ? number_format((float) $p->percentual_anterior, 2, ',', '.') : '—' }}</td>
+                                <td class="px-4 py-2 text-right font-medium">R$ {{ number_format($p->valor_liberado / 100, 2, ',', '.') }}</td>
+                            </tr>
+                        @empty
+                            <tr>
+                                <td colspan="6" class="px-4 py-6 text-center text-gray-500">Nenhuma parametrização histórica importada.</td>
+                            </tr>
+                        @endforelse
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
         {{-- Tabela --}}
         <div class="rounded-lg border border-gray-200 overflow-x-auto">
             <style>
@@ -113,6 +174,8 @@
                         <th class="px-3 py-2 text-left font-medium text-gray-500 uppercase">Natureza</th>
                         <th class="px-3 py-2 text-left font-medium text-gray-500 uppercase">Fonte</th>
                         <th class="px-3 py-2 text-right font-medium text-gray-500 uppercase">Dot. Inicial</th>
+                        <th class="px-3 py-2 text-right font-medium text-gray-500 uppercase">Créditos Adicionais</th>
+                        <th class="px-3 py-2 text-right font-medium text-gray-500 uppercase">Redução Créditos</th>
                         <th class="px-3 py-2 text-right font-medium text-gray-500 uppercase">Dot. Atualizada</th>
                         <th class="px-3 py-2 text-right font-medium text-gray-500 uppercase">Empenhado</th>
                         <th class="px-3 py-2 text-right font-medium text-gray-500 uppercase">Liquidado</th>
@@ -122,7 +185,10 @@
                 </thead>
                 <tbody class="divide-y divide-gray-100">
                     @forelse ($despesas as $d)
-                        @php $saldoLinha = $d->saldo_dotacao ?: ($d->valor_inicial - $d->empenhado); @endphp
+                        @php
+                            $saldoLinha = $d->saldo_dotacao ?: ($d->valor_inicial - $d->empenhado);
+                            $creditosAdicionais = $d->total_creditos_adicionais ?: ($d->credito_suplementar + $d->credito_especial);
+                        @endphp
                         <tr class="{{ $loop->even ? 'bg-gray-200' : 'bg-white' }} hover:bg-blue-100 cursor-pointer" onclick="this.classList.toggle('row-selected')">
                             <td class="px-3 py-1.5">
                                 <span class="font-mono text-gray-400">{{ $d->unidade?->codigo }}</span>
@@ -140,6 +206,8 @@
                             <td class="px-3 py-1.5 font-mono text-gray-600">{{ $d->natureza?->codigo }}</td>
                             <td class="px-3 py-1.5 font-mono text-gray-600">{{ $d->fonte?->codigo }}</td>
                             <td class="px-3 py-1.5 text-right text-gray-700">{{ number_format($d->valor_inicial / 100, 2, ',', '.') }}</td>
+                            <td class="px-3 py-1.5 text-right text-purple-700">{{ number_format($creditosAdicionais / 100, 2, ',', '.') }}</td>
+                            <td class="px-3 py-1.5 text-right text-orange-700">{{ number_format($d->reducao_creditos / 100, 2, ',', '.') }}</td>
                             <td class="px-3 py-1.5 text-right text-indigo-700">{{ number_format($d->dotacao_atualizada / 100, 2, ',', '.') }}</td>
                             <td class="px-3 py-1.5 text-right text-blue-700">{{ number_format($d->empenhado / 100, 2, ',', '.') }}</td>
                             <td class="px-3 py-1.5 text-right text-green-700">{{ number_format($d->liquidado / 100, 2, ',', '.') }}</td>
@@ -150,7 +218,7 @@
                         </tr>
                     @empty
                         <tr>
-                            <td colspan="12" class="px-3 py-8 text-center text-gray-400 text-sm">Nenhum registro encontrado.</td>
+                            <td colspan="14" class="px-3 py-8 text-center text-gray-400 text-sm">Nenhum registro encontrado.</td>
                         </tr>
                     @endforelse
                 </tbody>

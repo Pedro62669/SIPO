@@ -19,7 +19,7 @@ new #[Layout('layouts.guest')] class extends Component
     public string $password_confirmation = '';
 
     /**
-     * Mount the component.
+     * Monta o componente.
      */
     public function mount(string $token): void
     {
@@ -29,7 +29,7 @@ new #[Layout('layouts.guest')] class extends Component
     }
 
     /**
-     * Reset the password for the given user.
+     * Redefine a senha do usuário informado.
      */
     public function resetPassword(): void
     {
@@ -39,9 +39,9 @@ new #[Layout('layouts.guest')] class extends Component
             'password' => ['required', 'string', 'confirmed', Rules\Password::defaults()],
         ]);
 
-        // Here we will attempt to reset the user's password. If it is successful we
-        // will update the password on an actual user model and persist it to the
-        // database. Otherwise we will parse the error and return the response.
+        // Tenta redefinir a senha do usuário. Em caso de sucesso, atualiza a senha
+        // no modelo do usuário e persiste no banco; caso contrário, interpreta o
+        // erro e retorna a resposta adequada.
         $status = Password::reset(
             $this->only('email', 'password', 'password_confirmation', 'token'),
             function ($user) {
@@ -54,9 +54,8 @@ new #[Layout('layouts.guest')] class extends Component
             }
         );
 
-        // If the password was successfully reset, we will redirect the user back to
-        // the application's home authenticated view. If there is an error we can
-        // redirect them back to where they came from with their error message.
+        // Se a senha foi redefinida com sucesso, redireciona o usuário para o
+        // login. Se houver erro, mantém o usuário na tela com a mensagem recebida.
         if ($status != Password::PASSWORD_RESET) {
             $this->addError('email', __($status));
 
@@ -71,21 +70,21 @@ new #[Layout('layouts.guest')] class extends Component
 
 <div>
     <form wire:submit="resetPassword">
-        <!-- Email Address -->
+        <!-- Endereço de e-mail -->
         <div>
             <x-input-label for="email" :value="__('Email')" />
             <x-text-input wire:model="email" id="email" class="block mt-1 w-full" type="email" name="email" required autofocus autocomplete="username" />
             <x-input-error :messages="$errors->get('email')" class="mt-2" />
         </div>
 
-        <!-- Password -->
+        <!-- Senha -->
         <div class="mt-4">
             <x-input-label for="password" :value="__('Password')" />
             <x-text-input wire:model="password" id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="new-password" />
             <x-input-error :messages="$errors->get('password')" class="mt-2" />
         </div>
 
-        <!-- Confirm Password -->
+        <!-- Confirmar senha -->
         <div class="mt-4">
             <x-input-label for="password_confirmation" :value="__('Confirm Password')" />
 

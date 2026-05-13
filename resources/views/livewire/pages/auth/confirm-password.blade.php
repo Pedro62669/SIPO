@@ -10,7 +10,7 @@ new #[Layout('layouts.guest')] class extends Component
     public string $password = '';
 
     /**
-     * Confirm the current user's password.
+     * Confirma a senha do usuário atual.
      */
     public function confirmPassword(): void
     {
@@ -39,7 +39,7 @@ new #[Layout('layouts.guest')] class extends Component
     </div>
 
     <form wire:submit="confirmPassword">
-        <!-- Password -->
+        <!-- Senha -->
         <div>
             <x-input-label for="password" :value="__('Password')" />
 

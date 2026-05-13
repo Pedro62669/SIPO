@@ -21,7 +21,7 @@ class NovoOrcamento extends Component
 
     public ?int $orcamento_id = null;
 
-    // Step 1 - Criar
+    // Etapa 1 - Criar
     public int $ano;
 
     public string $tipo = 'LOA';
@@ -32,14 +32,14 @@ class NovoOrcamento extends Component
 
     public ?int $periodo_ppa_fim = null;
 
-    // Step 2 - Receita
+    // Etapa 2 - Receita
     public $receitaFile = null;
 
     public ?float $percentualProjecao = null;
 
     public ?array $receitaResult = null;
 
-    // Step 3 - Despesa
+    // Etapa 3 - Despesa
     public $despesaFile = null;
 
     public ?array $despesaResult = null;

@@ -9,7 +9,7 @@ new class extends Component
     public string $password = '';
 
     /**
-     * Delete the currently authenticated user.
+     * Exclui o usuário autenticado.
      */
     public function deleteUser(Logout $logout): void
     {

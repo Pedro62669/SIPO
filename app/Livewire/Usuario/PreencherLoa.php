@@ -31,13 +31,13 @@ class PreencherLoa extends Component
 
     public string $detalhamento = '';
 
-    public int $valor = 0;
+    public $valor = 0;
 
     public string $observacao = '';
 
     public ?int $editingLineId = null;
 
-    public int $editingValor = 0;
+    public $editingValor = 0;
 
     public string $editingObservacao = '';
 
@@ -125,7 +125,7 @@ class PreencherLoa extends Component
             'selectedLoaAcaoId' => 'required|exists:loa_acoes,id',
             'naturezaId' => 'required|exists:naturezas,id',
             'fonteId' => 'required|exists:fontes_recurso,id',
-            'valor' => 'required|integer|min:0',
+            'valor' => 'required|integer|min:0|max:999999999999',
         ]);
 
         $unidadeId = auth()->user()->unidade_id;
@@ -181,7 +181,7 @@ class PreencherLoa extends Component
     public function saveEdit(): void
     {
         $this->validate([
-            'editingValor' => 'required|integer|min:0',
+            'editingValor' => 'required|integer|min:0|max:999999999999',
         ]);
 
         $line = LoaPreenchimento::where('id', $this->editingLineId)
@@ -199,6 +199,8 @@ class PreencherLoa extends Component
     public function cancelEdit(): void
     {
         $this->editingLineId = null;
+        $this->editingValor = 0;
+        $this->editingObservacao = '';
     }
 
     public function deleteLine(int $lineId): void

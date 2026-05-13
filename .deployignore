@@ -1,0 +1,46 @@
+# Segredos e ambiente local
+.env
+.env.*
+!.env.example
+auth.json
+
+# Controle de versão e metadados de editores
+.git/
+.cursor/
+.claude/
+.idea/
+.vscode/
+.zed/
+.fleet/
+
+# Dependências de desenvolvimento e artefatos de teste
+node_modules/
+tests/
+phpunit.xml
+.phpunit.result.cache
+.phpunit.cache/
+
+# Documentos locais e arquivos de importação/referência
+Documentos/
+Documentos 2025/
+
+# Arquivos de execução/gerados
+*.log
+storage/logs/*
+storage/framework/cache/*
+storage/framework/cache/data/*
+storage/framework/sessions/*
+storage/framework/testing/*
+storage/framework/views/*
+storage/pail/
+bootstrap/cache/*.php
+public/hot
+public/storage
+database/database.sqlite
+
+# Ferramentas de fonte/build do frontend quando os assets forem gerados localmente
+package.json
+package-lock.json
+vite.config.js
+tailwind.config.js
+postcss.config.js

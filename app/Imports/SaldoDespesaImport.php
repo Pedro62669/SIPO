@@ -65,6 +65,16 @@ class SaldoDespesaImport implements ToCollection
                         continue;
                     }
 
+                    if (
+                        ! isset($colMap['total_creditos_adicionais']) &&
+                        (str_contains($val, 'total dos créditos adicionais') ||
+                            str_contains($val, 'total dos creditos adicionais') ||
+                            str_contains($val, '5.total'))
+                    ) {
+                        $colMap['total_creditos_adicionais'] = $i;
+                        continue;
+                    }
+
                     if (! isset($colMap['reducao_creditos']) && str_contains($val, 'redução') || (! isset($colMap['reducao_creditos']) && str_contains($val, 'reducao'))) {
                         $colMap['reducao_creditos'] = $i;
                         continue;
@@ -132,7 +142,7 @@ class SaldoDespesaImport implements ToCollection
                     }
                 }
 
-                // Fallbacks
+                // Campos alternativos
                 if (! isset($colMap['valor_inicial'])) {
                     foreach ($vals as $i => $val) {
                         if (str_contains($val, 'inicial')) {
@@ -187,6 +197,8 @@ class SaldoDespesaImport implements ToCollection
                 'liquidado' => $this->colVal($v, $colMap, 'liquidado'),
                 'credito_suplementar' => $this->colVal($v, $colMap, 'credito_suplementar'),
                 'credito_especial' => $this->colVal($v, $colMap, 'credito_especial'),
+                'total_creditos_adicionais' => $this->colVal($v, $colMap, 'total_creditos_adicionais')
+                    ?: ($this->colVal($v, $colMap, 'credito_suplementar') + $this->colVal($v, $colMap, 'credito_especial')),
                 'reducao_creditos' => $this->colVal($v, $colMap, 'reducao_creditos'),
                 'dotacao_atualizada' => $this->colVal($v, $colMap, 'dotacao_atualizada'),
                 'pago' => $this->colVal($v, $colMap, 'pago'),

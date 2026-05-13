@@ -12,7 +12,7 @@ new class extends Component
     public string $email = '';
 
     /**
-     * Mount the component.
+     * Monta o componente.
      */
     public function mount(): void
     {
@@ -21,7 +21,7 @@ new class extends Component
     }
 
     /**
-     * Update the profile information for the currently authenticated user.
+     * Atualiza as informações de perfil do usuário autenticado.
      */
     public function updateProfileInformation(): void
     {
@@ -44,7 +44,7 @@ new class extends Component
     }
 
     /**
-     * Send an email verification notification to the current user.
+     * Envia uma notificação de verificação de e-mail para o usuário atual.
      */
     public function sendVerification(): void
     {

@@ -36,6 +36,10 @@ class CortesOrcamento extends Component
 
     public function mount(int $orcamentoId): void
     {
+        if (Orcamento::whereKey($orcamentoId)->where('is_historico', true)->exists()) {
+            abort(403, 'LOAs anteriores são somente para consulta.');
+        }
+
         $this->orcamentoId = $orcamentoId;
     }
 

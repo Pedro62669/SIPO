@@ -5,6 +5,7 @@ namespace App\Livewire\Admin;
 use App\Enums\OrcamentoStatus;
 use App\Enums\OrcamentoTipo;
 use App\Imports\DespesaImport;
+use App\Imports\ParametrizacaoHistoricaImport;
 use App\Imports\SaldoDespesaImport;
 use App\Models\Orcamento;
 use App\Services\ImportacaoService;
@@ -20,18 +21,23 @@ class ImportarLoaHistorica extends Component
 
     public ?int $orcamento_id = null;
 
-    // Step 1
+    // Etapa 1
     public int $ano;
 
-    // Step 2 - Despesa
+    // Etapa 2 - Despesa
     public $despesaFile = null;
 
     public ?array $despesaResult = null;
 
-    // Step 3 - Saldo
+    // Etapa 3 - Saldo
     public $saldoFile = null;
 
     public ?array $saldoResult = null;
+
+    // Etapa 4 - Parametrização
+    public $parametrizacaoFile = null;
+
+    public ?array $parametrizacaoResult = null;
 
     public function mount(): void
     {
@@ -76,6 +82,11 @@ class ImportarLoaHistorica extends Component
     public function updatedSaldoFile(): void
     {
         $this->importarSaldo();
+    }
+
+    public function updatedParametrizacaoFile(): void
+    {
+        $this->importarParametrizacao();
     }
 
     public function importarDespesa(): void
@@ -128,6 +139,34 @@ class ImportarLoaHistorica extends Component
     public function pularSaldo(): void
     {
         $this->step = 4;
+    }
+
+    public function importarParametrizacao(): void
+    {
+        if (! $this->orcamento_id || ! $this->parametrizacaoFile) {
+            return;
+        }
+
+        $this->validate([
+            'parametrizacaoFile' => 'required|file|mimes:xlsx,xls,csv|max:20480',
+        ]);
+
+        $import = new ParametrizacaoHistoricaImport;
+        Excel::import($import, $this->parametrizacaoFile->getRealPath());
+
+        $result = app(ImportacaoService::class)->processarParametrizacoesHistoricas(
+            $this->orcamento_id,
+            $import->importedRows
+        );
+
+        $this->parametrizacaoResult = $result;
+        $this->parametrizacaoFile = null;
+        $this->step = 5;
+    }
+
+    public function pularParametrizacao(): void
+    {
+        $this->step = 5;
     }
 
     public function voltarStep(): void
